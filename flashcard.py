@@ -79,40 +79,60 @@ IMAGE_DIR.mkdir(exist_ok=True)
 # =========================
 # DOWNLOAD IMAGE LOCALLY
 # =========================
+@st.cache_data(show_spinner=False)
 def download_and_cache_image(url):
     """
-    Download image locally once and reuse it.
-    Prevents access denied / hotlink issues.
+    Download image locally and cache it.
+    Handles Wikimedia hotlink blocking.
     """
 
     try:
+        if not url:
+            return None
+
         parsed = urlparse(url)
+
         filename = os.path.basename(parsed.path)
 
-        # Ensure png extension
-        if not filename.endswith(".png"):
+        if "." not in filename:
             filename += ".png"
 
         local_path = IMAGE_DIR / filename
 
-        # Already downloaded
+        # Already exists
         if local_path.exists():
             return str(local_path)
 
         headers = {
-            "User-Agent": "Mozilla/5.0"
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/120.0 Safari/537.36"
+            ),
+            "Referer": "https://commons.wikimedia.org/"
         }
 
-        response = requests.get(url, headers=headers, timeout=20)
+        response = requests.get(
+            url,
+            headers=headers,
+            timeout=20,
+            stream=True
+        )
 
         if response.status_code == 200:
+
             with open(local_path, "wb") as f:
-                f.write(response.content)
-            return str(local_path)
+                for chunk in response.iter_content(1024):
+                    f.write(chunk)
+
+            # verify file is not empty
+            if os.path.getsize(local_path) > 100:
+                return str(local_path)
 
         return None
 
-    except Exception:
+    except Exception as e:
+        print("IMAGE ERROR:", e)
         return None
 
 # =========================
@@ -282,18 +302,26 @@ if FLASHCARD_DECK:
         )
 
         # =========================
-        # IMAGE DISPLAY FIXED
+        # IMAGE DISPLAY
         # =========================
         if "img" in card and card["img"]:
-
+        
             img_url = card["img"]
-
+        
             local_image = download_and_cache_image(img_url)
-
+        
             if local_image and os.path.exists(local_image):
-                st.image(local_image, width=180)
+        
+                st.image(
+                    local_image,
+                    width=180
+                )
+        
             else:
-                st.warning("⚠️ Unable to load sign image.")
+
+        st.error("❌ Unable to load sign image")
+
+        st.caption(img_url)
 
         # =========================
         # ANSWERS
