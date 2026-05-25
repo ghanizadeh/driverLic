@@ -12,7 +12,6 @@ st.set_page_config(
 # Custom responsive CSS injection for UI optimization
 st.markdown("""
     <style>
-    /* Remove sidebar space entirely to ensure centering */
     [data-testid="stSidebar"] {
         display: none !important;
     }
@@ -50,7 +49,6 @@ st.markdown("""
         text-align: right;
         font-family: 'Tahoma', sans-serif;
     }
-    /* Make buttons friendly and obvious */
     .stButton>button {
         width: 100%;
         border-radius: 8px;
@@ -61,7 +59,7 @@ st.markdown("""
 # UI Strings for Translation
 UI_STRINGS = {
     "en": {
-        "title": "Alberta Knowledge Test Simulator by Afshin",
+        "title": "🇨🇦 Alberta Class 5 Knowledge Test Simulator",
         "caption": "A clean, simple study workspace designed for beginners.",
         "lang_label": "🌐 App Language:",
         "sec_label": "📚 Select Study Topic:",
@@ -116,7 +114,6 @@ with top_col2:
 
 is_rtl = lang_code == "fa"
 
-# App Titles
 if is_rtl:
     st.markdown(f"<h2 class='rtl-text'>{UI_STRINGS[lang_code]['title']}</h2>", unsafe_allow_html=True)
     st.markdown(f"<p class='rtl-text' style='color:gray;'>{UI_STRINGS[lang_code]['caption']}</p>", unsafe_allow_html=True)
@@ -127,12 +124,10 @@ else:
 st.write("---")
 
 if FLASHCARD_DECK:
-    # 1. Topic Selector Row
     categories = list(FLASHCARD_DECK.keys())
     selected_category = st.selectbox(UI_STRINGS[lang_code]["sec_label"], categories)
     current_pool = FLASHCARD_DECK[selected_category]
 
-    # Initialize State Variables
     if f"idx_{selected_category}" not in st.session_state:
         st.session_state[f"idx_{selected_category}"] = 0
     if f"score_{selected_category}" not in st.session_state:
@@ -143,7 +138,6 @@ if FLASHCARD_DECK:
     current_idx = st.session_state[f"idx_{selected_category}"]
     total_questions = len(current_pool)
 
-    # 2. Topic Header & Progress Info Block
     st.write("")
     info_col1, info_col2 = st.columns([2, 1])
     with info_col1:
@@ -158,7 +152,6 @@ if FLASHCARD_DECK:
         opts = card["opts_" + lang_code]
         correct_ans = card["a_" + lang_code]
         
-        # 3. Clean Flashcard Content Display Box
         rtl_class = "rtl-text" if is_rtl else ""
         st.markdown(f"""
             <div class="flashcard-box {rtl_class}">
@@ -167,15 +160,12 @@ if FLASHCARD_DECK:
             </div>
         """, unsafe_allow_html=True)
         
-        # Display Image asset cleanly below the text if it exists
+        # Live web asset ingestion loop
         if "img" in card and card["img"]:
-            img_path = card["img"]
-            if os.path.exists(img_path):
-                st.image(img_path, width=140)
-            else:
-                st.info(f"🖼️ [Sign Graphic: {img_path.split('/')[-1]}]")
+            # Renders directly via the live online URL paths provided in JSON
+            st.image(card["img"], width=150)
+            st.write("")
         
-        # 4. Single Interactive Radio Option Block
         user_choice = st.radio(
             UI_STRINGS[lang_code]["radio_label"], 
             options=opts, 
@@ -203,7 +193,6 @@ if FLASHCARD_DECK:
                 
         st.write("---")
         
-        # 5. Dashboard Score & Bottom Navigation Controls
         nav_col1, nav_col2, nav_col3 = st.columns([1, 1, 1])
         
         with nav_col1:
@@ -218,7 +207,6 @@ if FLASHCARD_DECK:
             )
             
         with nav_col3:
-            # Change action text to wrap around loop clearly
             if st.button(UI_STRINGS[lang_code]["next"]):
                 if current_idx < total_questions - 1:
                     st.session_state[f"idx_{selected_category}"] += 1
@@ -226,7 +214,6 @@ if FLASHCARD_DECK:
                     st.session_state[f"idx_{selected_category}"] = 0
                 st.rerun()
 
-    # Footer Reset Utilities out of focus point
     st.write("")
     foot_col1, foot_col2 = st.columns([3, 1])
     with foot_col2:
