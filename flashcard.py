@@ -319,9 +319,9 @@ if FLASHCARD_DECK:
         
             else:
 
-        st.error("❌ Unable to load sign image")
-
-        st.caption(img_url)
+                st.error("❌ Unable to load sign image")
+        
+                st.caption(img_url)
 
         # =========================
         # ANSWERS
