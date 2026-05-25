@@ -61,7 +61,7 @@ st.markdown("""
 # UI Strings for Translation
 UI_STRINGS = {
     "en": {
-        "title": "🇨🇦 Alberta Class 5 Knowledge Test Simulator",
+        "title": "Alberta Knowledge Test Simulator by Afshin",
         "caption": "A clean, simple study workspace designed for beginners.",
         "lang_label": "🌐 App Language:",
         "sec_label": "📚 Select Study Topic:",
