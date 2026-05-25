@@ -478,7 +478,7 @@
       "opts_fa": [
         "بله، اما فقط زمانی که یک تابلو این گردش را مجاز کرده باشد",
         "بله، اگر راننده سرعت را کم کند و ترافیک یا عابری در تقاطع نباشد و تابلوی ممنوعیت وجود نداشته باشد",
-        "بله، در صورتی که راننده کاملاً متوقف شود و ترافیک, عابر پیاده یا تابلویی که آن را ممنوع کند وجود نداشته باشد",
+        "بله، در صورتی که راننده کاملاً متوقف شود و ترافیک، عابر پیاده یا تابلویی که آن را ممنوع کند وجود نداشته باشد",
         "خیر، گردش به راست در چراغ قرمز هرگز مجاز نیست"
       ],
       "a_en": "Yes, if the driver stops and there is no traffic, pedestrian or sign that prohibits such a turn",
@@ -1114,7 +1114,7 @@
       "opts_en": ["$750", "$1000", "$250", "$2000 (Standardized modern Alberta threshold)"],
       "opts_fa": ["۷۵۰ دلار", "۱۰۰۰ دلار", "۲۵۰ دلار", "۲۰۰۰ دلار (سقف مدرن و استاندارد آلبرتا)"],
       "a_en": "$2000 (Standardized modern Alberta threshold)",
-      "a_fa": "$2000 (سقف مدرن و استاندارد آلبرتا)"
+      "a_fa": "۲۰۰۰ دلار (سقف مدرن و استاندارد آلبرتا)"
     },
     {
       "id": 35,
@@ -1228,7 +1228,7 @@
       "opts_fa": ["مسیر برای وسایل نقلیه بالای ۴۵۰۰ کیلوگرم", "مسیر برای وسایل نقلیه کندرو", "لاین اختصاصی برای اتوبوس‌ها", "مسیر کالاهای خطرناک"],
       "a_en": "Reserved lane for buses",
       "a_fa": "لاین اختصاصی برای اتوبوس‌ها",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Canada_and_Ontario_regulatory_sign_Rb-84.svg"
+      "img": "https://www.ontario.ca/files/2023-03/mto-handbook-driver-sign-regulatory-bus-lane-en-2023-03-23.png"
     },
     {
       "id": 11,
@@ -1238,7 +1238,7 @@
       "opts_fa": ["تسهیلات خارج از جاده در پیش رو", "لغزنده در صورت خیس بودن", "آسفالت ناهموار", "مسیر انحرافی در پیش رو"],
       "a_en": "Uneven pavement",
       "a_fa": "آسفالت ناهموار",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/1/1b/MUTCD_W8-1.svg"
+      "img": "https://www.transportation.alberta.ca/images/safety/UnevenPavement.jpg"
     },
     {
       "id": 18,
@@ -1248,7 +1248,7 @@
       "opts_fa": ["ترافیک در حال ورود از سمت راست", "جاده مارپیچ در پیش رو", "پیچ به راست", "تقاطع پنهان در سمت راست"],
       "a_en": "Curve right",
       "a_fa": "پیچ به راست",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Canada_Warning_sign_WA-2R.svg"
+      "img": "https://www.ontario.ca/files/2022-02/mto-handbook-driver-sign-warning-curve-right-en-2022-02-15.png"
     },
     {
       "id": 20,
@@ -1258,17 +1258,17 @@
       "opts_fa": ["ورود ممنوع", "وسایل نقلیه کندرو در پیش رو", "هشدار، تابلوی حق تقدم در پیش رو", "هشدار، ترافیک در حال نزدیک شدن است"],
       "a_en": "Warning, Yield sign ahead",
       "a_fa": "هشدار، تابلوی حق تقدم در پیش رو",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Canada_Warning_sign_WB-2.svg"
+      "img": "https://www.ontario.ca/files/2022-02/mto-handbook-driver-sign-warning-yield-ahead-en-2022-02-15.png"
     },
     {
       "id": 24,
       "q_en": "This sign indicates:",
-      "q_fa": "این تابلو نشان‌دهنده چیست؟",
+      "q_fa": "این تابلو نشان‌دهنده چیست？",
       "opts_en": ["Road narrows, left", "Two-way traffic", "Divided highway ends", "Obstruction - keep left"],
       "opts_fa": ["باریک شدن جاده از سمت چپ", "ترافیک دوطرفه", "پایان بزرگراه مجزا (دو بانده)", "مانع - به چپ برانید"],
       "a_en": "Road narrows, left",
       "a_fa": "باریک شدن جاده از سمت چپ",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Canada_Warning_sign_WA-12L.svg"
+      "img": "https://www.ontario.ca/files/2022-02/mto-handbook-driver-sign-warning-road-narrows-left-en-2022-02-15.png"
     },
     {
       "id": 25,
@@ -1278,7 +1278,7 @@
       "opts_fa": ["خطوط لرزاننده (رامبل استریپس)", "منطقه ساخت و ساز", "دست‌انداز", "پایان آسفالت"],
       "a_en": "Bump",
       "a_fa": "دست‌انداز",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Canada_Warning_sign_WA-22.svg"
+      "img": "https://www.ontario.ca/files/2022-02/mto-handbook-driver-sign-warning-pavement-bumps-en-2022-02-15.png"
     },
     {
       "id": 27,
@@ -1288,7 +1288,7 @@
       "opts_fa": ["عملیات عمرانی در پیش رو", "لاین ترافیک در حال پایان است", "تقاطع راه‌آهن در پیش رو", "محل عبور حیوانات وحشی"],
       "a_en": "Railway crossing ahead",
       "a_fa": "تقاطع راه‌آهن در پیش رو",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/c/c5/MUTCD_W10-1.svg"
+      "img": "https://www.ontario.ca/files/2022-02/mto-handbook-driver-sign-warning-railway-crossing-ahead-en-2022-02-15.png"
     },
     {
       "id": 43,
@@ -1298,7 +1298,7 @@
       "opts_fa": ["فقط کامیون‌های سنگین", "سبقت ممنوع", "ورود هرگونه وسیله نقلیه ممنوع", "ورود ممنوع"],
       "a_en": "Do not pass",
       "a_fa": "سبقت ممنوع",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/5/53/Canada_and_Ontario_regulatory_sign_Rb-31.svg"
+      "img": "https://www.ontario.ca/files/2022-02/mto-handbook-driver-sign-regulatory-no-passing-en-2022-02-15.png"
     },
     {
       "id": 51,
@@ -1308,7 +1308,7 @@
       "opts_fa": ["پایان لاین، از دست رفتن لاین سمت راست", "لاین اضافه شده (جریان آزاد ترافیک)", "پیچ به راست", "لاین گردش دوگانه در پیش رو"],
       "a_en": "Lane ends, loss of right lane",
       "a_fa": "پایان لاین، از دست رفتن لاین سمت راست",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/7/77/Canada_Warning_sign_WA-13R.svg"
+      "img": "https://www.ontario.ca/files/2022-02/mto-handbook-driver-sign-warning-right-lane-ends-en-2022-02-15.png"
     },
     {
       "id": 55,
@@ -1318,7 +1318,7 @@
       "opts_fa": ["منطقه بازی کودکان", "خط عابر پیاده", "ایستگاه تعیین‌شده اتوبوس مدرسه", "منطقه مدرسه"],
       "a_en": "Pedestrian crosswalk",
       "a_fa": "خط عابر پیاده",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Canada_Warning_sign_WC-2.svg"
+      "img": "https://www.ontario.ca/files/2022-02/mto-handbook-driver-sign-warning-pedestrian-crossing-en-2022-02-15.png"
     },
     {
       "id": 60,
@@ -1328,7 +1328,7 @@
       "opts_fa": ["تقاطع T شکل", "لاین ترافیک پایان می‌یابد", "تقاطع پنهان", "ورود کامیون‌ها به بزرگراه در پیش رو"],
       "a_en": "T intersection",
       "a_fa": "تقاطع T شکل",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/a/af/Canada_Warning_sign_WA-8.svg"
+      "img": "https://www.ontario.ca/files/2022-02/mto-handbook-driver-sign-warning-t-intersection-en-2022-02-15.png"
     },
     {
       "id": 61,
@@ -1338,7 +1338,7 @@
       "opts_fa": ["جاده مارپیچ در پیش رو", "منطقه تداخل (Weave zone) در پیش رو", "لغزنده در صورت خیس بودن", "تغییر لاین مجاز است"],
       "a_en": "Winding road ahead",
       "a_fa": "جاده مارپیچ در پیش رو",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Canada_Warning_sign_WA-5R.svg"
+      "img": "https://www.ontario.ca/files/2022-02/mto-handbook-driver-sign-warning-winding-road-en-2022-02-15.png"
     },
     {
       "id": 65,
@@ -1348,7 +1348,7 @@
       "opts_fa": ["تقاطع T شکل", "جاده مارپیچ در پیش رو", "ادغام ترافیک (Merging)", "باریک شدن جاده از سمت راست"],
       "a_en": "Merging traffic",
       "a_fa": "ادغام ترافیک (Merging)",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Canada_Warning_sign_WA-16R.svg"
+      "img": "https://www.ontario.ca/files/2022-02/mto-handbook-driver-sign-warning-merge-en-2022-02-15.png"
     },
     {
       "id": 71,
@@ -1358,7 +1358,7 @@
       "opts_fa": ["فقط لاین مستقیم عبوری", "سبقت مجاز است", "پیچیدن ممنوع است", "گردش به چپ دو لاینه همزمان"],
       "a_en": "Double lane left turn",
       "a_fa": "گردش به چپ دو لاینه همزمان",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/8/82/Canada_and_Ontario_regulatory_sign_Rb-45L.svg"
+      "img": "https://www.ontario.ca/files/2023-03/mto-handbook-driver-sign-regulatory-multi-lane-turns-en-2023-03-23.png"
     },
     {
       "id": 75,
@@ -1368,7 +1368,7 @@
       "opts_fa": ["پیچ تند به چپ در جاده پیش رو", "گردش به چپ ممنوع است", "وسایل نقلیه می‌توانند به چپ بپیچند یا مستقیم بروند", "حرکت مستقیم یا گردش به راست"],
       "a_en": "Straight through or right turn",
       "a_fa": "حرکت مستقیم یا گردش به راست",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/1/17/Canada_and_Ontario_regulatory_sign_Rb-42R.svg"
+      "img": "https://www.ontario.ca/files/2022-02/mto-handbook-driver-sign-regulatory-go-straight-or-turn-right-en-2022-02-15.png"
     },
     {
       "id": 78,
@@ -1378,7 +1378,7 @@
       "opts_fa": ["ورود وسایل نقلیه اضطراری به جاده", "لاین تعیین‌شده بسته است", "تقاطع راه‌آهن", "ورود ممنوع"],
       "a_en": "The designated lane is closed",
       "a_fa": "لاین تعیین‌شده بسته است",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/0/07/MUTCD_R3-8_Symbol.svg"
+      "img": "https://www.ontario.ca/files/2022-02/mto-handbook-driver-sign-regulatory-lane-closed-x-en-2022-02-15.png"
     },
     {
       "id": 80,
@@ -1388,7 +1388,7 @@
       "opts_fa": ["لاین برای استفاده وسایل نقلیه مشخص‌شده رزرو است", "فقط ترافیک یک‌طرفه", "فقط وسایل نقلیه همسفری (Car pool)", "لاین می‌تواند برای وسایل نقلیه حمل کالاهای خطرناک استفاده شود"],
       "a_en": "Lane is reserved for use by the specified vehicles",
       "a_fa": "لاین برای استفاده وسایل نقلیه مشخص‌شده رزرو است",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Canada_and_Ontario_regulatory_sign_Rb-85.svg"
+      "img": "https://www.ontario.ca/files/2023-03/mto-handbook-driver-sign-regulatory-reserved-lane-transit-en-2023-03-23.png"
     },
     {
       "id": 91,
@@ -1398,7 +1398,7 @@
       "opts_fa": ["حق تقدم را به عابران و ترافیک واگذار کنید", "پلاکارد وسیله نقلیه کالاهای خطرناک: گاز قابل اشتعال", "وسیله نقلیه کندرو", "هشدار، تابلوی حق تقدم در پیش رو"],
       "a_en": "Slow moving vehicle",
       "a_fa": "وسیله نقلیه کندرو",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Slow_Moving_Vehicle_Sign.svg"
+      "img": "https://www.ontario.ca/files/2022-02/mto-handbook-driver-sign-warning-slow-moving-vehicle-en-2022-02-15.png"
     },
     {
       "id": 93,
@@ -1408,7 +1408,7 @@
       "opts_fa": ["منطقه بازی کودکان در پیش رو", "محل عبور عابر پیاده در پیش رو", "ایستگاه اتوبوس مدرسه در پیش رو", "منطقه مدرسه در پیش رو"],
       "a_en": "School bus stop ahead",
       "a_fa": "ایستگاه اتوبوس مدرسه در پیش رو",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Canada_Warning_sign_WC-9.svg"
+      "img": "https://www.ontario.ca/files/2022-02/mto-handbook-driver-sign-warning-school-bus-stop-ahead-en-2022-02-15.png"
     },
     {
       "id": 96,
@@ -1418,7 +1418,7 @@
       "opts_fa": ["منطقه مدرسه", "خط‌کشی عابر پیاده مدرسه در پیش رو", "منطقه بازی کودکان", "چراغ‌های فعال‌شونده توسط عابر پیاده در پیش رو"],
       "a_en": "School crosswalk ahead",
       "a_fa": "خط‌کشی عابر پیاده مدرسه در پیش رو",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Canada_Warning_sign_WC-1.svg"
+      "img": "https://www.ontario.ca/files/2022-02/mto-handbook-driver-sign-warning-school-crossing-ahead-en-2022-02-15.png"
     },
     {
       "id": 99,
@@ -1428,7 +1428,7 @@
       "opts_fa": ["پایان آسفالت", "منطقه کارگاه ساختمانی در پیش رو", "بن‌بست", "نشان‌گر خطر (Hazard marker)"],
       "a_en": "Hazard marker",
       "a_fa": "نشان‌گر خطر (Hazard marker)",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Canada_Warning_sign_WA-36L.svg"
+      "img": "https://www.ontario.ca/files/2022-02/mto-handbook-driver-sign-warning-hazard-close-left-en-2022-02-15.png"
     },
     {
       "id": 100,
@@ -1438,7 +1438,7 @@
       "opts_fa": ["پایان بزرگراه مجزا (باند دوطرفه)", "آغاز بزرگراه مجزا (باند دوطرفه)", "مانع - از سمت چپ عبور کنید", "ترافیک دوطرفه"],
       "a_en": "Divided highway begins",
       "a_fa": "آغاز بزرگراه مجزا (باند دوطرفه)",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/1/14/Canada_Warning_sign_WA-33.svg"
+      "img": "https://www.ontario.ca/files/2022-02/mto-handbook-driver-sign-warning-divided-highway-begins-en-2022-02-15.png"
     },
     {
       "id": 105,
@@ -1448,7 +1448,7 @@
       "opts_fa": ["تسهیلات خارج از جاده", "خدمات بیمارستانی", "خدمات هتل", "علامت مسیر بزرگراه اصلی"],
       "a_en": "Hospital services",
       "a_fa": "خدمات بیمارستانی",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/5/5a/MUTCD_D9-2.svg"
+      "img": "https://www.ontario.ca/files/2022-02/mto-handbook-driver-sign-information-hospital-en-2022-02-15.png"
     }
   ]
 }
