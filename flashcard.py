@@ -1,19 +1,4 @@
-# Fixed Streamlit Code for Working Road Sign Images
 
-The issue is happening because many external `.png` image links from Wikimedia block direct access (hotlink protection / access denied).
-
-The best solution is:
-
-1. Automatically download the images locally
-2. Cache them in a folder
-3. Display local copies instead of remote URLs
-4. Add fallback handling if a link fails
-
-Replace your ENTIRE `.py` file with the code below.
-
----
-
-```python
 import streamlit as st
 import json
 import os
