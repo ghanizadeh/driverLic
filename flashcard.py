@@ -167,13 +167,13 @@ if FLASHCARD_DECK:
             </div>
         """, unsafe_allow_html=True)
         
-        # Display Image asset cleanly below the text using online web URLs
+        # Display Image asset cleanly below the text if it exists
         if "img" in card and card["img"]:
             img_url = card["img"]
-            try:
-                # Streamlit natively downloads and maps external web images passed directly into st.image
-                st.image(img_url, width=160)
-            except Exception:
+            # Force explicit string check to bypass local file fallback mechanics
+            if isinstance(img_url, str) and (img_url.startswith("http://") or img_url.startswith("https://")):
+                st.image(img_url, width=150)
+            else:
                 st.info(f"🖼️ [Sign Graphic Link: {img_url}]")
         
         # 4. Single Interactive Radio Option Block
