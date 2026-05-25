@@ -372,40 +372,4 @@ if FLASHCARD_DECK:
 
             st.rerun()
 
-```
-
----
-
-# IMPORTANT
-
-Also install requests if needed:
-
-```bash
-pip install requests
-```
-
----
-
-# WHY THIS FIXES IT
-
-Your old code directly loaded external `.png` URLs:
-
-```python
-st.image(img_url)
-```
-
-Some Wikimedia image servers block direct access.
-
-The new version:
-
-* downloads images once
-* stores them locally
-* loads local files
-* prevents access denied errors
-* works much more reliably on Streamlit Cloud and local machines
-
----
-
-# NO CHANGE NEEDED IN JSON
-
-You can keep your existing `flashcards.json` exactly the same.
+ 
