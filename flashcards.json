@@ -2,873 +2,1453 @@
   "General Rules & Road Procedures": [
     {
       "id": 1,
-      "q": "Unless otherwise posted, what is the basic speed limit outside a city, town or village on a primary highway?",
-      "opts": ["100 km/h", "90 km/h", "110 km/h", "80 km/h"],
-      "a": "100 km/h"
+      "q_en": "Unless otherwise posted, what is the basic speed limit outside a city, town or village on a primary highway?",
+      "q_fa": "در صورتی که تابلویی نصب نشده باشد، حد مجاز سرعت پایه در خارج از شهر، شهرک یا روستا در یک بزرگراه اصلی چقدر است؟",
+      "opts_en": ["100 km/h", "90 km/h", "110 km/h", "80 km/h"],
+      "opts_fa": ["۱۰۰ کیلومتر بر ساعت", "۹۰ کیلومتر بر ساعت", "۱۱۰ کیلومتر بر ساعت", "۸۰ کیلومتر بر ساعت"],
+      "a_en": "100 km/h",
+      "a_fa": "۱۰۰ کیلومتر بر ساعت"
     },
     {
       "id": 2,
-      "q": "When backing a passenger vehicle to the left, a driver should:",
-      "opts": [
+      "q_en": "When backing a passenger vehicle to the left, a driver should:",
+      "q_fa": "هنگام دنده عقب گرفتن یک خودروی مسافربری به سمت چپ، راننده باید:",
+      "opts_en": [
         "Look in the inside rear-view mirror and make steering adjustments as necessary",
         "Look over the right shoulder with occasional glances to the front",
         "Look over the left shoulder with occasional glances to the front",
         "Without shoulder checking, use the inside and outside rear-view mirrors to ensure the best view"
       ],
-      "a": "Look over the left shoulder with occasional glances to the front"
+      "opts_fa": [
+        "به آینه دید عقب داخل خودرو نگاه کرده و در صورت نیاز فرمان را تنظیم کند",
+        "از روی شانه راست به عقب نگاه کند و گهگاه به جلو نگاه بیندازد",
+        "از روی شانه چپ به عقب نگاه کند و گهگاه به جلو نگاه بیندازد",
+        "بدون چک کردن شانه، از آینه‌های دید عقب داخلی و خارجی برای بهترین دید استفاده کند"
+      ],
+      "a_en": "Look over the left shoulder with occasional glances to the front",
+      "a_fa": "از روی شانه چپ به عقب نگاه کند و گهگاه به جلو نگاه بیندازد"
     },
     {
       "id": 5,
-      "q": "When passing a large truck on a two-way highway, a driver should:",
-      "opts": [
+      "q_en": "When passing a large truck on a two-way highway, a driver should:",
+      "q_fa": "هنگام سبقت گرفتن از یک کامیون بزرگ در یک بزرگراه دوطرفه، راننده باید:",
+      "opts_en": [
         "Leave extra room before returning to their lane",
         "Return to their lane when signalled by the truck's headlights",
         "Return to their lane when the truck is no longer visible in any of their rear-view mirrors",
         "Return to their lane once they have cleared the truck's front bumper"
       ],
-      "a": "Leave extra room before returning to their lane"
+      "opts_fa": [
+        "قبل از بازگشت به لاین خود، فضای اضافی باقی بگذارد",
+        "زمانی که کامیون با چراغ‌های جلو علامت داد به لاین خود بازگردد",
+        "زمانی که کامیون دیگر در هیچ‌کدام از آینه‌های عقب دیده نمی‌شود به لاین خود بازگردد",
+        "به محض عبور از سپر جلوی کامیون به لاین خود بازگردد"
+      ],
+      "a_en": "Leave extra room before returning to their lane",
+      "a_fa": "قبل از بازگشت به لاین خود، فضای اضافی باقی بگذارد"
     },
     {
       "id": 10,
-      "q": "Shoulder checking means:",
-      "opts": [
+      "q_en": "Shoulder checking means:",
+      "q_fa": "بررسی شانه (Shoulder checking) به چه معناست؟",
+      "opts_en": [
         "Glancing towards the blind spot in the direction the driver intends to move",
         "Glancing into the left outside mirror",
         "Glancing into both the inside and outside mirrors",
         "Glancing into the right outside mirror"
       ],
-      "a": "Glancing towards the blind spot in the direction the driver intends to move"
+      "opts_fa": [
+        "نگاه سریع به سمت نقطه کور در جهتی که راننده قصد حرکت دارد",
+        "نگاه سریع به آینه خارجی سمت چپ",
+        "نگاه سریع به هر دو آینه داخلی و خارجی",
+        "نگاه سریع به آینه خارجی سمت راست"
+      ],
+      "a_en": "Glancing towards the blind spot in the direction the driver intends to move",
+      "a_fa": "نگاه سریع به سمت نقطه کور در جهتی که راننده قصد حرکت دارد"
     },
     {
       "id": 15,
-      "q": "The term \"over-driving\" your headlights at night means:",
-      "opts": [
+      "q_en": "The term \"over-driving\" your headlights at night means:",
+      "q_fa": "اصطلاح «رانندگی فراتر از برد نور چراغ‌ها» (over-driving headlights) در شب به چه معناست؟",
+      "opts_en": [
         "The driver cannot see clearly for 1000 metres",
         "The low beam headlights are not set properly",
         "The driver is travelling at a speed which would not permit them to see an object in time to stop",
         "The driver has had the headlights on for too long a time"
       ],
-      "a": "The driver is travelling at a speed which would not permit them to see an object in time to stop"
+      "opts_fa": [
+        "راننده نمی‌تواند تا مسافت ۱۰۰۰ متری را به وضوح ببیند",
+        "چراغ‌های نور پایین به درستی تنظیم نشده‌اند",
+        "راننده با سرعتی حرکت می‌کند که به او اجازه نمی‌دهد شیئی را به موقع برای توقف ببیند",
+        "راننده چراغ‌های جلو را برای مدت طولانی روشن نگه داشته است"
+      ],
+      "a_en": "The driver is travelling at a speed which would not permit them to see an object in time to stop",
+      "a_fa": "راننده با سرعتی حرکت می‌کند که به او اجازه نمی‌دهد شیئی را به موقع برای توقف ببیند"
     },
     {
       "id": 17,
-      "q": "Using the 2-second rule to judge a safe following distance when driving:",
-      "opts": [
+      "q_en": "Using the 2-second rule to judge a safe following distance when driving:",
+      "q_fa": "استفاده از قانون دو ثانیه برای تخمین مسافت ایمن با خودروی جلویی هنگام رانندگی:",
+      "opts_en": [
         "Is more accurate on rural highways than in urban centres",
         "Is not accurate at speeds greater than 100 km/h",
         "Is accurate at any speed",
         "Is not accurate at speeds lower than 30 km/h"
       ],
-      "a": "Is accurate at any speed"
+      "opts_fa": [
+        "در بزرگراه‌های روستایی دقیق‌تر از مراکز شهری است",
+        "در سرعت‌های بالاتر از ۱۰۰ کیلومتر بر ساعت دقیق نیست",
+        "در هر سرعتی دقیق است",
+        "در سرعت‌های کمتر از ۳۰ کیلومتر بر ساعت دقیق نیست"
+      ],
+      "a_en": "Is accurate at any speed",
+      "a_fa": "در هر سرعتی دقیق است"
     },
     {
       "id": 29,
-      "q": "When a driver is stopping behind another vehicle in traffic:",
-      "opts": [
+      "q_en": "When a driver is stopping behind another vehicle in traffic:",
+      "q_fa": "هنگامی که راننده پشت خودروی دیگری در ترافیک متوقف می‌شود باید:",
+      "opts_en": [
         "Remain a minimum of 10 metres from the vehicle ahead",
         "Allow sufficient space to move into another lane without reversing",
         "Maintain sufficient space as determined by the 2-second rule",
         "Keep back approximately 1 metre from the rear bumper of the vehicle ahead"
       ],
-      "a": "Allow sufficient space to move into another lane without reversing"
+      "opts_fa": [
+        "حداقل ۱۰ متر از خودروی جلویی فاصله داشته باشد",
+        "فضای کافی برای رفتن به لاین دیگر بدون نیاز به دنده عقب رفتن ایجاد کند",
+        "فاصله کافی بر اساس قانون ۲ ثانیه را حفظ کند",
+        "حدود ۱ متر از سپر عقب خودروی جلویی فاصله بگیرد"
+      ],
+      "a_en": "Allow sufficient space to move into another lane without reversing",
+      "a_fa": "فضای کافی برای رفتن به لاین دیگر بدون نیاز به دنده عقب رفتن ایجاد کند"
     },
     {
       "id": 30,
-      "q": "If another vehicle is following too close, what should a driver do?",
-      "opts": [
+      "q_en": "If another vehicle is following too close, what should a driver do?",
+      "q_fa": "اگر خودروی دیگری بیش از حد نزدیک حرکت می‌کند (tailgating)، راننده باید چه کند؟",
+      "opts_en": [
         "Slow down gradually and encourage the other vehicle to pass",
         "Press hard on the brake pedal",
         "Increase speed to 10 km/h above the posted speed limit",
         "Activate the four-way flashers"
       ],
-      "a": "Slow down gradually and encourage the other vehicle to pass"
+      "opts_fa": [
+        "به تدریج سرعت را کم کرده و خودروی جلویی را به سبقت گرفتن تشویق کند",
+        "پدال ترمز را به شدت فشار دهد",
+        "سرعت را به ۱۰ کیلومتر بر ساعت بالاتر از حد مجاز افزایش دهد",
+        "چراغ‌های جفت راهنما (فلاشر) را روشن کند"
+      ],
+      "a_en": "Slow down gradually and encourage the other vehicle to pass",
+      "a_fa": "به تدریج سرعت را کم کرده و خودروی جلویی را به سبقت گرفتن تشویق کند"
     },
     {
       "id": 31,
-      "q": "When recovering from a skid, a driver should:",
-      "opts": [
+      "q_en": "When recovering from a skid, a driver should:",
+      "q_fa": "هنگام کنترل و خروج از سرخوردگی (skid)، راننده باید:",
+      "opts_en": [
         "Accelerate and steer in the opposite direction of the skid",
         "Brake and counter-steer",
         "Steer in the direction the driver wants the front of the vehicle to go",
         "Brake and hold firmly on the steering wheel"
       ],
-      "a": "Steer in the direction the driver wants the front of the vehicle to go"
+      "opts_fa": [
+        "شتاب بگیرد و در جهت مخالف سرخوردگی فرمان دهد",
+        "ترمز کند و فرمان معکوس دهد",
+        "به سمتی که می‌خواهد جلوی خودرو حرکت کند، فرمان را بچرخاند",
+        "ترمز کند و فرمان را محکم نگه دارد"
+      ],
+      "a_en": "Steer in the direction the driver wants the front of the vehicle to go",
+      "a_fa": "به سمتی که می‌خواهد جلوی خودرو حرکت کند، فرمان را بچرخاند"
     },
     {
       "id": 41,
-      "q": "The recommended braking procedure to bring a vehicle to a normal, smooth stop is:",
-      "opts": [
+      "q_en": "The recommended braking procedure to bring a vehicle to a normal, smooth stop is:",
+      "q_fa": "روش ترمزگیری توصیه‌شده برای متوقف کردن عادی و نرم خودرو عبارت است از:",
+      "opts_en": [
         "Continually increase brake pressure until the wheels lock",
         "Shift the vehicle into neutral and apply steady pressure to the brake pedal until the vehicle comes to a stop",
         "Pump the brake pedal smoothly until the vehicle stops",
         "Apply brake pressure, ease off slightly just before the vehicle stops, then re-apply sufficient pressure to stop"
       ],
-      "a": "Apply brake pressure, ease off slightly just before the vehicle stops, then re-apply sufficient pressure to stop"
+      "opts_fa": [
+        "افزایش مداوم فشار ترمز تا زمانی که چرخ‌ها قفل شوند",
+        "قرار دادن دنده در حالت خلاص و اعمال فشار یکنواخت به پدال ترمز تا توقف کامل خودرو",
+        "پمپ کردن نرم پدال ترمز تا زمانی که خودرو متوقف شود",
+        "فشار آوردن به ترمز، رها کردن جزئی آن درست قبل از توقف کامل، و سپس اعمال فشار کافی برای ایستادن"
+      ],
+      "a_en": "Apply brake pressure, ease off slightly just before the vehicle stops, then re-apply sufficient pressure to stop",
+      "a_fa": "فشار آوردن به ترمز، رها کردن جزئی آن درست قبل از توقف کامل، و سپس اعمال فشار کافی برای ایستادن"
     },
     {
       "id": 49,
-      "q": "Which statement describes the steps required to reverse in a straight line?",
-      "opts": [
+      "q_en": "Which statement describes the steps required to reverse in a straight line?",
+      "q_fa": "کدام عبارت مراحل لازم برای دنده عقب رفتن در یک خط مستقیم را توصیف می‌کند؟",
+      "opts_en": [
         "Keep both hands on the steering wheel and constantly use the inside rear-view mirror for guidance",
         "Place the right hand at the top of the steering wheel, look over the left shoulder and use the outside left rear-view mirror",
         "Place the left hand at the top of the steering wheel and look over the right shoulder through the rear window",
         "Place the left hand at the bottom of the steering wheel and use both outside mirrors"
       ],
-      "a": "Place the left hand at the top of the steering wheel and look over the right shoulder through the rear window"
+      "opts_fa": [
+        "هر دو دست را روی فرمان نگه داشته و به طور مداوم از آینه دید عقب داخلی برای هدایت استفاده کند",
+        "دست راست را بالای فرمان قرار دهد، از روی شانه چپ نگاه کند و از آینه خارجی سمت چپ استفاده کند",
+        "دست چپ را بالای فرمان قرار دهد و از روی شانه راست از شیشه عقب نگاه کند",
+        "دست چپ را در پایین فرمان قرار دهد و از هر دو آینه خارجی استفاده کند"
+      ],
+      "a_en": "Place the left hand at the top of the steering wheel and look over the right shoulder through the rear window",
+      "a_fa": "دست چپ را بالای فرمان قرار دهد و از روی شانه راست از شیشه عقب نگاه کند"
     },
     {
       "id": 59,
-      "q": "When travelling in urban areas, drivers should scan the road approximately:",
-      "opts": ["25 to 30 seconds ahead", "12 to 15 seconds ahead", "20 to 30 seconds ahead", "1 to 6 seconds ahead"],
-      "a": "12 to 15 seconds ahead"
+      "q_en": "When travelling in urban areas, drivers should scan the road approximately:",
+      "q_fa": "هنگام رانندگی در مناطق شهری، رانندگان باید مسیر پیش رو را حدوداً تا چه مسافتی اسکن کنند؟",
+      "opts_en": ["25 to 30 seconds ahead", "12 to 15 seconds ahead", "20 to 30 seconds ahead", "1 to 6 seconds ahead"],
+      "opts_fa": ["۲۵ تا ۳۰ ثانیه جلوتر", "۱۲ تا ۱۵ ثانیه جلوتر", "۲۰ تا ۳۰ ثانیه جلوتر", "۱ تا ۶ ثانیه جلوتر"],
+      "a_en": "12 to 15 seconds ahead",
+      "a_fa": "۱۲ تا ۱۵ ثانیه جلوتر"
     },
     {
       "id": 63,
-      "q": "When approaching the top of a hill on a two-lane highway:",
-      "opts": [
+      "q_en": "When approaching the top of a hill on a two-lane highway:",
+      "q_fa": "هنگام نزدیک شدن به بالای تپه در یک بزرگراه دو لاین:",
+      "opts_en": [
         "Exceeding the speed limit is permitted!",
         "Flash the headlights to warn oncoming vehicles",
         "Stay to the right portion of the lane",
         "Keep close to the centre line to prevent others from passing"
       ],
-      "a": "Stay to the right portion of the lane"
+      "opts_fa": [
+        "تجاوز از سرعت مجاز مجاز است!",
+        "چراغ‌های جلو را برای هشدار به خودروهای روبرو روشن و خاموش کند",
+        "در بخش سمت راست لاین حرکت کند",
+        "نزدیک به خط وسط بماند تا از سبقت گرفتن دیگران جلوگیری کند"
+      ],
+      "a_en": "Stay to the right portion of the lane",
+      "a_fa": "در بخش سمت راست لاین حرکت کند"
     },
     {
       "id": 66,
-      "q": "According to the Basic Licence Driver's Handbook, most skids are the result of:",
-      "opts": ["Bad brakes", "Icy roads", "Bad tires", "Driver error"],
-      "a": "Driver error"
+      "q_en": "According to the Basic Licence Driver's Handbook, most skids are the result of:",
+      "q_fa": "طبق کتابچه راهنمای رانندگی، بیشتر سرخوردگی‌ها نتیجه چه چیزی هستند؟",
+      "opts_en": ["Bad brakes", "Icy roads", "Bad tires", "Driver error"],
+      "opts_fa": ["ترمزهای خراب", "جاده‌های یخ‌زده", "لاستیک‌های خراب", "خطای راننده"],
+      "a_en": "Driver error",
+      "a_fa": "خطای راننده"
     },
     {
       "id": 73,
-      "q": "Speed limit signs indicate:",
-      "opts": [
+      "q_en": "Speed limit signs indicate:",
+      "q_fa": "تابلوهای محدودیت سرعت نشان‌دهنده چه چیزی هستند؟",
+      "opts_en": [
         "The speed you should travel under all driving conditions",
         "The minimum speed permitted on all highways",
         "The maximum speed permitted when conditions are favourable",
         "The maximum speed permitted except when passing"
       ],
-      "a": "The maximum speed permitted when conditions are favourable"
+      "opts_fa": [
+        "سرعتی که باید تحت هر شرایط رانندگی با آن حرکت کنید",
+        "حداقل سرعت مجاز در تمام بزرگراه‌ها",
+        "حداکثر سرعت مجاز زمانی که شرایط جاده و آب و هوا مساعد است",
+        "حداکثر سرعت مجاز به جز در هنگام سبقت گرفتن"
+      ],
+      "a_en": "The maximum speed permitted when conditions are favourable",
+      "a_fa": "حداکثر سرعت مجاز زمانی که شرایط جاده و آب و هوا مساعد است"
     },
     {
       "id": 77,
-      "q": "In reduced visibility due to fog, smoke or snow, use the:",
-      "opts": ["Park lights", "Headlights on high beam", "Headlights on low beam", "Daytime running lights"],
-      "a": "Headlights on low beam"
+      "q_en": "In reduced visibility due to fog, smoke or snow, use the:",
+      "q_fa": "در شرایط کاهش دید ناشی از مه، دود یا برف، از کدام چراغ استفاده کنید؟",
+      "opts_en": ["Park lights", "Headlights on high beam", "Headlights on low beam", "Daytime running lights"],
+      "opts_fa": ["چراغ‌های پارک", "چراغ‌های نور بالا", "چراغ‌های نور پایین", "چراغ‌های روز (DRL)"],
+      "a_en": "Headlights on low beam",
+      "a_fa": "چراغ‌های نور پایین"
     },
     {
       "id": 90,
-      "q": "The recommended method for travelling through a curve on a highway is:",
-      "opts": [
+      "q_en": "The recommended method for travelling through a curve on a highway is:",
+      "q_fa": "روش توصیه‌شده برای حرکت در پیچ جاده در بزرگراه چیست؟",
+      "opts_en": [
         "Reduce speed before the curve, stay in the lane and gently accelerate after entering the curve",
         "Maintain speed before the curve, brake in the curve, look ahead and accelerate out of the curve",
         "Cover the brake pedal before the curve, counter-steer toward the outside of the lane and accelerate when exiting",
         "Accelerate before the curve, cover the brake pedal in the curve and accelerate after leaving the curve"
       ],
-      "a": "Reduce speed before the curve, stay in the lane and gently accelerate after entering the curve"
+      "opts_fa": [
+        "قبل از پیچ سرعت را کم کنید، در لاین بمانید و پس از ورود به پیچ به آرامی شتاب بگیرید",
+        "سرعت را قبل از پیچ حفظ کنید، در پیچ ترمز کنید، به جلو نگاه کنید و هنگام خروج شتاب بگیرید",
+        "قبل از پیچ پای خود را روی ترمز آماده نگه دارید، به سمت بیرون لاین فرمان دهید و هنگام خروج شتاب بگیرید",
+        "قبل از پیچ شتاب بگیرید، در پیچ پای خود را روی ترمز آماده نگه دارید و پس از خروج شتاب بگیرید"
+      ],
+      "a_en": "Reduce speed before the curve, stay in the lane and gently accelerate after entering the curve",
+      "a_fa": "قبل از پیچ سرعت را کم کنید، در لاین بمانید و پس از ورود به پیچ به آرامی شتاب بگیرید"
     },
     {
       "id": 95,
-      "q": "If the vehicle's right tires travel off the paved portion of the roadway:",
-      "opts": [
+      "q_en": "If the vehicle's right tires travel off the paved portion of the roadway:",
+      "q_fa": "اگر لاستیک‌های سمت راست خودرو از بخش آسفالت‌شده جاده خارج شوند راننده باید:",
+      "opts_en": [
         "Apply the brakes and counter-steer to return to the paved portion of the roadway",
         "Keep a firm grip on the steering wheel, ease off the gas pedal, and then gradually return to the paved portion of the roadway",
         "Accelerate slightly, then turn the steering wheel sharply to return to the paved portion of the roadway",
         "Move the vehicle completely off the paved portion, then steer back onto the paved portion of the roadway"
       ],
-      "a": "Keep a firm grip on the steering wheel, ease off the gas pedal, and then gradually return to the paved portion of the roadway"
+      "opts_fa": [
+        "ترمزها را اعمال کرده و برای بازگشت به بخش آسفالت جاده فرمان معکوس دهد",
+        "فرمان را محکم نگه دارد، پا را از روی پدال گاز بردارد و سپس به تدریج به بخش آسفالت جاده بازگردد",
+        "کمی شتاب بگیرد، سپس فرمان را به تندی بچرخاند تا به بخش آسفالت جاده بازگردد",
+        "خودرو را کاملاً از بخش آسفالت خارج کند، سپس مجدداً به بخش آسفالت جاده هدایت کند"
+      ],
+      "a_en": "Keep a firm grip on the steering wheel, ease off the gas pedal, and then gradually return to the paved portion of the roadway",
+      "a_fa": "فرمان را محکم نگه دارد، پا را از روی پدال گاز بردارد و سپس به تدریج به بخش آسفالت جاده بازگردد"
     },
     {
       "id": 104,
-      "q": "On a two-lane highway, when passing other vehicles travelling in the same direction, a driver:",
-      "opts": [
+      "q_en": "On a two-lane highway, when passing other vehicles travelling in the same direction, a driver:",
+      "q_fa": "در یک بزرگراه دو لاین، هنگام سبقت گرفتن از خودروهای هم‌مسیر، راننده:",
+      "opts_en": [
         "Should pass on the left when safe",
         "Should pass on the right when safe",
         "Should always travel 30 km/h faster than the vehicle being passed",
         "Should not pull out to pass until they are within 3 metres of the vehicle being passed"
       ],
-      "a": "Should pass on the left when safe"
+      "opts_fa": [
+        "باید در صورت ایمن بودن از سمت چپ سبقت بگیرد",
+        "باید در صورت ایمن بودن از سمت راست سبقت بگیرد",
+        "باید همیشه ۳۰ کیلومتر بر ساعت سریع‌تر از خودروی جلویی حرکت کند",
+        "نباید برای سبقت خارج شود تا زمانی که به فاصله ۳ متری خودروی جلویی برسد"
+      ],
+      "a_en": "Should pass on the left when safe",
+      "a_fa": "باید در صورت ایمن بودن از سمت چپ سبقت بگیرد"
     }
   ],
   "Intersections & Right-of-Way": [
     {
       "id": 3,
-      "q": "When approaching an intersection and facing a traffic control light that is showing a green right-turn arrow and a red light, a driver:",
-      "opts": [
+      "q_en": "When approaching an intersection and facing a traffic control light that is showing a green right-turn arrow and a red light, a driver:",
+      "q_fa": "هنگام نزدیک شدن به تقاطع با چراغ راهنمایی که فلش سبز گردش به راست و چراغ قرمز اصلی را نشان می‌دهد، راننده:",
+      "opts_en": [
         "Must stop and wait for a green light before turning in the direction of the arrow",
         "May go straight through the intersection without stopping",
         "May proceed when safe, without stopping, in the direction of the arrow",
         "May turn left without stopping"
       ],
-      "a": "May proceed when safe, without stopping, in the direction of the arrow"
+      "opts_fa": [
+        "باید متوقف شود و منتظر چراغ سبز بماند تا در جهت فلش بپیچد",
+        "می‌تواند بدون توقف مستقیم از تقاطع عبور کند",
+        "می‌تواند در صورت ایمن بودن، بدون توقف در جهت فلش حرکت کند",
+        "می‌تواند بدون توقف به چپ بپیچد"
+      ],
+      "a_en": "May proceed when safe, without stopping, in the direction of the arrow",
+      "a_fa": "می‌تواند در صورت ایمن بودن، بدون توقف در جهت فلش حرکت کند"
     },
     {
       "id": 6,
-      "q": "Which statement best describes the steps for turning right at a red traffic light?",
-      "opts": [
+      "q_en": "Which statement best describes the steps for turning right at a red traffic light?",
+      "q_fa": "کدام عبارت بهترین توصیف را برای مراحل گردش به راست در چراغ قرمز دارد؟",
+      "opts_en": [
         "Right turns on a red traffic light are never permitted",
         "Signal and make sure there is no sign prohibiting the turn, stop, look left and right, yield the right-of-way, then proceed",
         "Reduce speed before the turn, look right for cyclists, signal and proceed",
         "Signal and reduce speed before the turn, look left, yield to vehicles and proceed"
       ],
-      "a": "Signal and make sure there is no sign prohibiting the turn, stop, look left and right, yield the right-of-way, then proceed"
+      "opts_fa": [
+        "گردش به راست در چراغ قرمز هرگز مجاز نیست",
+        "راهنما بزنید، مطمئن شوید تابلوی ممنوعیت وجود ندارد، کاملاً متوقف شوید، به چپ و راست نگاه کنید، حق تقدم را رعایت کنید و سپس حرکت کنید",
+        "قبل از پیچ سرعت را کم کنید، برای دوچرخه‌سواران به راست نگاه کنید، راهنما بزنید و حرکت کنید",
+        "راهنما بزنید و سرعت را قبل از پیچ کم کنید، به چپ نگاه کنید، به خودروها حق تقدم دهید و حرکت کنید"
+      ],
+      "a_en": "Signal and make sure there is no sign prohibiting the turn, stop, look left and right, yield the right-of-way, then proceed",
+      "a_fa": "راهنما بزنید، مطمئن شوید تابلوی ممنوعیت وجود ندارد، کاملاً متوقف شوید، به چپ و راست نگاه کنید، حق تقدم را رعایت کنید و سپس حرکت کنید"
     },
     {
       "id": 33,
-      "q": "A driver attempting to turn left at a steady green traffic light:",
-      "opts": [
+      "q_en": "A driver attempting to turn left at a steady green traffic light:",
+      "q_fa": "راننده‌ای که قصد دارد در چراغ سبز ثابت به چپ بپیچد:",
+      "opts_en": [
         "Has the right-of-way over oncoming traffic",
         "Must stop before the pedestrian crosswalk line, then proceed",
         "Has the right-of-way over pedestrians",
         "Must not cross the path of an approaching vehicle unless it is safe"
       ],
-      "a": "Must not cross the path of an approaching vehicle unless it is safe"
+      "opts_fa": [
+        "نسبت به خودروهای روبرو حق تقدم دارد",
+        "باید قبل از خط عابر پیاده متوقف شود، سپس حرکت کند",
+        "نسبت به عابران پیاده حق تقدم دارد",
+        "نباید مسیر خودروی در حال نزدیک شدن را قطع کند مگر اینکه کاملاً ایمن باشد"
+      ],
+      "a_en": "Must not cross the path of an approaching vehicle unless it is safe",
+      "a_fa": "نباید مسیر خودروی در حال نزدیک شدن را قطع کند مگر اینکه کاملاً ایمن باشد"
     },
     {
       "id": 46,
-      "q": "When turning left from a two-way road onto a one-way road, what lane should the vehicle enter?",
-      "opts": [
+      "q_en": "When turning left from a two-way road onto a one-way road, what lane should the vehicle enter?",
+      "q_fa": "هنگام گردش به چپ از یک جاده دوطرفه به یک جاده یک‌طرفه، خودرو باید وارد کدام لاین شود؟",
+      "opts_en": [
         "The lane immediately to the right of centre",
         "The lane nearest the curb on the left side of the one-way road",
         "The centre lane of the one-way road",
         "The right lane of the one-way road"
       ],
-      "a": "The lane nearest the curb on the left side of the one-way road"
+      "opts_fa": [
+        "لاین بلافاصله در سمت راست خط وسط",
+        "لاین نزدیک به جدول (کرب) در سمت چپ جاده یک‌طرفه",
+        "لاین وسط جاده یک‌طرفه",
+        "لاین سمت راست جاده یک‌طرفه"
+      ],
+      "a_en": "The lane nearest the curb on the left side of the one-way road",
+      "a_fa": "لاین نزدیک به جدول (کرب) در سمت چپ جاده یک‌طرفه"
     },
     {
       "id": 47,
-      "q": "When two vehicles approach an uncontrolled \"T\" intersection at right angles to each other at approximately the same time:",
-      "opts": [
+      "q_en": "When two vehicles approach an uncontrolled \"T\" intersection at right angles to each other at approximately the same time:",
+      "q_fa": "هنگامی که دو خودرو به یک تقاطع کنترل‌نشده \"T\" شکل با زاویه قائم و تقریباً همزمان نزدیک می‌شوند:",
+      "opts_en": [
         "The vehicle on the left must yield the right-of-way",
         "The vehicle on the left has the right-of-way",
         "The vehicle going straight through always has the right-of-way",
         "Both vehicles must stop"
       ],
-      "a": "The vehicle on the left must yield the right-of-way"
+      "opts_fa": [
+        "خودروی سمت چپ باید حق تقدم را رعایت کند",
+        "خودروی سمت چپ حق تقدم دارد",
+        "خودرویی که مستقیم حرکت می‌کند همیشه حق تقدم دارد",
+        "هر دو خودرو باید متوقف شوند"
+      ],
+      "a_en": "The vehicle on the left must yield the right-of-way",
+      "a_fa": "خودروی سمت چپ باید حق تقدم را رعایت کند"
     },
     {
       "id": 48,
-      "q": "Unless otherwise permitted, what lane must a driver be in to turn left from a one-way road?",
-      "opts": ["The lane to the right of centre", "The left lane nearest the left curb", "The lane closest to the right curb", "The centre lane"],
-      "a": "The left lane nearest the left curb"
+      "q_en": "Unless otherwise permitted, what lane must a driver be in to turn left from a one-way road?",
+      "q_fa": "در صورتی که مجوز دیگری داده نشده باشد، راننده برای گردش به چپ از یک جاده یک‌طرفه باید در کدام لاین قرار گیرد؟",
+      "opts_en": ["The lane to the right of centre", "The left lane nearest the left curb", "The lane closest to the right curb", "The centre lane"],
+      "opts_fa": ["لاین سمت راست خط وسط", "لاین سمت چپ نزدیک به جدول چپ", "لاین نزدیک به جدول سمت راست", "لاین وسط"],
+      "a_en": "The left lane nearest the left curb",
+      "a_fa": "لاین سمت چپ نزدیک به جدول چپ"
     },
     {
       "id": 70,
-      "q": "When are dual turns permitted at an intersection?",
-      "opts": [
+      "q_en": "When are dual turns permitted at an intersection?",
+      "q_fa": "چه زمانی گردش همزمان دو خودرو (Dual turns) در یک تقاطع مجاز است؟",
+      "opts_en": [
         "Only when turning from a one-way road onto a one-way road",
         "Only when indicated by pavement markings or traffic control signs",
         "Any time there are at least 2 lanes on the road being entered",
         "Only when the road has 6 or more lanes"
       ],
-      "a": "Only when indicated by pavement markings or traffic control signs"
+      "opts_fa": [
+        "تنها هنگام گردش از یک جاده یک‌طرفه به جاده یک‌طرفه دیگر",
+        "تنها زمانی که توسط خط‌کشی‌های روسازی یا تابلوهای کنترل ترافیک مشخص شده باشد",
+        "هر زمانی که حداقل ۲ لاین در جاده ورودی وجود داشته باشد",
+        "تنها زمانی که جاده ۶ لاین یا بیشتر داشته باشد"
+      ],
+      "a_en": "Only when indicated by pavement markings or traffic control signs",
+      "a_fa": "تنها زمانی که توسط خط‌کشی‌های روسازی یا تابلوهای کنترل ترافیک مشخص شده باشد"
     },
     {
       "id": 74,
-      "q": "An \"uncontrolled intersection\":",
-      "opts": [
+      "q_en": "An \"uncontrolled intersection\":",
+      "q_fa": "یک «تقاطع کنترل‌نشده» تقاطعی است که:",
+      "opts_en": [
         "Has a flashing yellow light for one direction of traffic and a flashing red light for the other direction of traffic",
         "Has traffic signs but no traffic control signal lights",
         "Has no traffic control signal lights or traffic signs",
         "Has Yield signs but no Stop signs"
       ],
-      "a": "Has no traffic control signal lights or traffic signs"
+      "opts_fa": [
+        "دارای چراغ زرد چشمک‌زن برای یک جهت و چراغ قرمز چشمک‌زن برای جهت دیگر است",
+        "دارای تابلوهای راهنمایی است اما چراغ راهنمایی ندارد",
+        "هیچ چراغ راهنمایی یا تابلوی کنترل ترافیکی ندارد",
+        "دارای تابلوی حق تقدم (Yield) است اما تابلوی ایست ندارد"
+      ],
+      "a_en": "Has no traffic control signal lights or traffic signs",
+      "a_fa": "هیچ چراغ راهنمایی یا تابلوی کنترل ترافیکی ندارد"
     },
     {
       "id": 79,
-      "q": "Is a driver allowed to turn right at a red traffic control light?",
-      "opts": [
+      "q_en": "Is a driver allowed to turn right at a red traffic control light?",
+      "q_fa": "آیا راننده مجاز است در چراغ قرمز به راست بپیچد؟",
+      "opts_en": [
         "Yes, but only when a sign permits such a turn",
         "Yes, if the driver reduces speed and there is no traffic or pedestrian in the intersection, and no sign that prohibits such a turn",
         "Yes, if the driver stops and there is no traffic, pedestrian or sign that prohibits such a turn",
         "No, right turns on a red traffic light are never permitted"
       ],
-      "a": "Yes, if the driver stops and there is no traffic, pedestrian or sign that prohibits such a turn"
+      "opts_fa": [
+        "بله، اما فقط زمانی که یک تابلو این گردش را مجاز کرده باشد",
+        "بله، اگر راننده سرعت را کم کند و ترافیک یا عابری در تقاطع نباشد و تابلوی ممنوعیت وجود نداشته باشد",
+        "بله، در صورتی که راننده کاملاً متوقف شود و ترافیک، عابر پیاده یا تابلویی که آن را ممنوع کند وجود نداشته باشد",
+        "خیر، گردش به راست در چراغ قرمز هرگز مجاز نیست"
+      ],
+      "a_en": "Yes, if the driver stops and there is no traffic, pedestrian or sign that prohibits such a turn",
+      "a_fa": "بله، در صورتی که راننده کاملاً متوقف شود و ترافیک، عابر پیاده یا تابلویی که آن را ممنوع کند وجود نداشته باشد"
     },
     {
       "id": 94,
-      "q": "When encountering a funeral procession that is crossing an intersection:",
-      "opts": [
+      "q_en": "When encountering a funeral procession that is crossing an intersection:",
+      "q_fa": "هنگام مواجهه با دسته تشییع جنازه که در حال عبور از یک تقاطع است، راننده باید:",
+      "opts_en": [
         "Sound the horn before proceeding",
         "Proceed through the funeral procession only when there is sufficient space between vehicles",
         "Yield the right-of-way and do not break through the procession",
         "Flash the high beam headlights before proceeding"
       ],
-      "a": "Yield the right-of-way and do not break through the procession"
+      "opts_fa": [
+        "قبل از حرکت بوق بزند",
+        "تنها زمانی که فضای کافی بین خودروها وجود دارد از میان دسته تشییع جنازه عبور کند",
+        "حق تقدم را رعایت کرده و صف و نظم دسته تشییع را قطع نکند",
+        "قبل از حرکت چراغ‌های نور بالا را روشن و خاموش کند"
+      ],
+      "a_en": "Yield the right-of-way and do not break through the procession",
+      "a_fa": "حق تقدم را رعایت کرده و صف و نظم دسته تشییع را قطع نکند"
     }
   ],
   "Traffic Circles, Highway Lanes & Merging": [
     {
       "id": 8,
-      "q": "A single solid white line between driving lanes in an urban area means:",
-      "opts": [
+      "q_en": "A single solid white line between driving lanes in an urban area means:",
+      "q_fa": "یک خط سفید ممتد بین لاین‌های رانندگی در مناطق شهری به چه معناست؟",
+      "opts_en": [
         "It is a line separating traffic travelling in opposite directions",
         "Traffic on the right is moving faster than traffic on the left",
         "Lane changing is not permitted",
         "Lane change is permitted"
       ],
-      "a": "Lane changing is not permitted"
+      "opts_fa": [
+        "خطی است که ترافیک در حال حرکت در جهت‌های مخالف را جدا می‌کند",
+        "ترافیک در سمت راست سریع‌تر از ترافیک در سمت چپ حرکت می‌کند",
+        "تغییر لاین مجاز نیست",
+        "تغییر لاین مجاز است"
+      ],
+      "a_en": "Lane changing is not permitted",
+      "a_fa": "تغییر لاین مجاز نیست"
     },
     {
       "id": 9,
-      "q": "A \"parking lane\" as defined in the Basic Licence Driver's Handbook is:",
-      "opts": [
+      "q_en": "A \"parking lane\" as defined in the Basic Licence Driver's Handbook is:",
+      "q_fa": "لاین پارک (parking lane) بر اساس کتابچه راهنمای رانندگی چیست؟",
+      "opts_en": [
         "A lane closest to the curb, where parking is permitted but there are no meters",
         "All of these responses are correct",
         "That portion of a primary highway between the edge of the roadway to the right of the direction of traffic and the nearest solid white line, not being the centre line, marked on the roadway",
         "A lane immediately beside a row of parking meters in an urban area"
       ],
-      "a": "That portion of a primary highway between the edge of the roadway to the right of the direction of traffic and the nearest solid white line, not being the centre line, marked on the roadway"
+      "opts_fa": [
+        "لاین نزدیک به جدول که پارک در آن مجاز است اما پارک‌متر ندارد",
+        "تمام پاسخ‌های ذکر شده صحیح هستند",
+        "آن بخش از بزرگراه اصلی بین لبه جاده در سمت راست جهت ترافیک و نزدیک‌ترین خط سفید ممتد (غیر از خط وسط) که روی جاده علامت‌گذاری شده است",
+        "لاینی که بلافاصله در کنار ردیفی از پارک‌مترها در یک منطقه شهری قرار دارد"
+      ],
+      "a_en": "That portion of a primary highway between the edge of the roadway to the right of the direction of traffic and the nearest solid white line, not being the centre line, marked on the roadway",
+      "a_fa": "آن بخش از بزرگراه اصلی بین لبه جاده در سمت راست جهت ترافیک و نزدیک‌ترین خط سفید ممتد (غیر از خط وسط) که روی جاده علامت‌گذاری شده است"
     },
     {
       "id": 34,
-      "q": "A \"Weave Zone\" is best described as:",
-      "opts": [
+      "q_en": "A \"Weave Zone\" is best described as:",
+      "q_fa": "منطقه تداخل یا بافت (Weave Zone) بهترین تعریف را در کدام گزینه دارد؟",
+      "opts_en": [
         "A place on a highway where the entrance and exit lanes are close together, and vehicles that are slowing to exit the highway must drive between vehicles that are accelerating to enter the highway",
         "An area on the highway that is used for emergency parking",
         "A place where the highway has a series of curves that require the driver to slow down",
         "A limited access area on a highway where a driver can legally back their vehicle when they miss their exit"
       ],
-      "a": "A place on a highway where the entrance and exit lanes are close together, and vehicles that are slowing to exit the highway must drive between vehicles that are accelerating to enter the highway"
+      "opts_fa": [
+        "محلی در بزرگراه که لاین‌های ورودی و خروجی به هم نزدیک هستند و خودروهایی که برای خروج سرعت خود را کم می‌کنند باید از میان خودروهایی که برای ورود شتاب می‌گیرند عبور کنند",
+        "بخشی در بزرگراه که برای پارک اضطراری استفاده می‌شود",
+        "محلی که بزرگراه دارای یک سری پیچ است و راننده را ملزم به کاهش سرعت می‌کند",
+        "یک منطقه با دسترسی محدود در بزرگراه که راننده در صورت رد کردن خروجی خود، می‌تواند به طور قانونی دنده عقب برود"
+      ],
+      "a_en": "A place on a highway where the entrance and exit lanes are close together, and vehicles that are slowing to exit the highway must drive between vehicles that are accelerating to enter the highway",
+      "a_fa": "محلی در بزرگراه که لاین‌های ورودی و خروجی به هم نزدیک هستند و خودروهایی که برای خروج سرعت خود را کم می‌کنند باید از میان خودروهایی که برای ورود شتاب می‌گیرند عبور کنند"
     },
     {
       "id": 44,
-      "q": "A driver entering a traffic circle:",
-      "opts": [
+      "q_en": "A driver entering a traffic circle:",
+      "q_fa": "راننده‌ای که وارد میدان (فلکه ترافیکی) می‌شود باید:",
+      "opts_en": [
         "Must yield to traffic on the right",
         "Must yield to vehicles in the traffic circle",
         "Has the right-of-way",
         "Must use the courtesy rule and yield to the vehicle that arrived first"
       ],
-      "a": "Must yield to vehicles in the traffic circle"
+      "opts_fa": [
+        "باید به ترافیک سمت راست خود حق تقدم دهد",
+        "باید به خودروهای داخل میدان حق تقدم دهد",
+        "خودش حق تقدم دارد",
+        "باید از قانون احترام متقابل استفاده کند و به خودرویی که اول رسیده حق تقدم دهد"
+      ],
+      "a_en": "Must yield to vehicles in the traffic circle",
+      "a_fa": "باید به خودروهای داخل میدان حق تقدم دهد"
     },
     {
       "id": 45,
-      "q": "A deceleration lane is:",
-      "opts": [
+      "q_en": "A deceleration lane is:",
+      "q_fa": "لاین کاهش سرعت (Deceleration lane) عبارت است از:",
+      "opts_en": [
         "A lane where vehicles reduce speed when exiting a highway",
         "The right lane of a four-lane highway for use by slower moving vehicles",
         "The lane immediately to the right of a solid yellow line on a highway",
         "A lane on hills for use by slower moving vehicles"
       ],
-      "a": "A lane where vehicles reduce speed when exiting a highway"
+      "opts_fa": [
+        "لاینی که در آن خودروها هنگام خروج از بزرگراه سرعت خود را کاهش می‌دهند",
+        "لاین سمت راست یک بزرگراه چهار لاینه برای استفاده خودروهای کندرو",
+        "لاین بلافاصله در سمت راست یک خط زرد ممتد در بزرگراه",
+        "لاینی در تپه‌ها برای استفاده خودروهای کندرو"
+      ],
+      "a_en": "A lane where vehicles reduce speed when exiting a highway",
+      "a_fa": "لاینی که در آن خودروها هنگام خروج از بزرگراه سرعت خود را کاهش می‌دهند"
     },
     {
       "id": 50,
-      "q": "An acceleration lane is:",
-      "opts": [
+      "q_en": "An acceleration lane is:",
+      "q_fa": "لاین شتاب (Acceleration lane) عبارت است از:",
+      "opts_en": [
         "A lane with broken line markings",
         "A lane on hills, designated for faster moving vehicles",
         "The left lane of a four-lane highway, for use when passing slow moving vehicles",
         "A lane in a merge area for use by vehicles entering the highway"
       ],
-      "a": "A lane in a merge area for use by vehicles entering the highway"
+      "opts_fa": [
+        "لاینی با خط‌کشی‌های منقطع",
+        "لاینی در تپه‌ها که برای خودروهای سریع‌تر در نظر گرفته شده است",
+        "لاین سمت چپ یک بزرگراه چهار لاینه برای استفاده هنگام سبقت گرفتن از خودروهای کندرو",
+        "لاینی در منطقه ادغام (merge) برای استفاده خودروهایی که وارد بزرگراه می‌شوند"
+      ],
+      "a_en": "A lane in a merge area for use by vehicles entering the highway",
+      "a_fa": "لاینی در منطقه ادغام (merge) برای استفاده خودروهایی که وارد بزرگراه می‌شوند"
     },
     {
       "id": 56,
-      "q": "When driving in the right lane on a highway, what should a driver do if another vehicle attempts to merge from an acceleration lane on the right?",
-      "opts": [
+      "q_en": "When driving in the right lane on a highway, what should a driver do if another vehicle attempts to merge from an acceleration lane on the right?",
+      "q_fa": "هنگام رانندگی در لاین سمت راست بزرگراه، اگر خودروی دیگری تلاش کند از لاین شتاب در سمت راست ادغام شود، راننده باید چه کند؟",
+      "opts_en": [
         "Stop to allow the other vehicle in",
         "Accelerate to close any gap in the traffic flow",
         "Move into the left lane if it is safe to do so, or be prepared to adjust speed",
         "Insist that the other vehicle yield the right-of-way"
       ],
-      "a": "Move into the left lane if it is safe to do so, or be prepared to adjust speed"
+      "opts_fa": [
+        "متوقف شود تا به خودروی دیگر اجازه ورود دهد",
+        "شتاب بگیرد تا هرگونه فاصله در جریان ترافیک را ببندد",
+        "در صورت ایمن بودن به لاین سمت چپ برود یا برای تنظیم سرعت خود آماده باشد",
+        "اصرار داشته باشد که خودروی دیگر باید حق تقدم را رعایت کند"
+      ],
+      "a_en": "Move into the left lane if it is safe to do so, or be prepared to adjust speed",
+      "a_fa": "در صورت ایمن بودن به لاین سمت چپ برود یا برای تنظیم سرعت خود آماده باشد"
     },
     {
       "id": 76,
-      "q": "When facing a Merge sign a driver should:",
-      "opts": [
+      "q_en": "When facing a Merge sign a driver should:",
+      "q_fa": "هنگام مواجهه با تابلوی ادغام (Merge)، راننده باید:",
+      "opts_en": [
         "Stop at the entrance to the other highway and wait until a gap in traffic occurs before proceeding",
         "Watch for a gap in traffic on the highway they are entering, adjust to highway speed in the acceleration lane and blend in smoothly",
         "Stop and yield the right-of-way to traffic already on the highway",
         "Reduce speed and proceed with caution"
       ],
-      "a": "Watch for a gap in traffic on the highway they are entering, adjust to highway speed in the acceleration lane and blend in smoothly"
+      "opts_fa": [
+        "در ورودی بزرگراه دیگر متوقف شود و منتظر بماند تا قبل از حرکت، فاصله‌ای در ترافیک ایجاد شود",
+        "مراقب ایجاد فاصله در ترافیک بزرگراهی که وارد آن می‌شود باشد، سرعت خود را در لاین شتاب با بزرگراه تنظیم کند و به آرامی ادغام شود",
+        "متوقف شود و به ترافیکی که از قبل در بزرگراه حرکت می‌کند حق تقدم دهد",
+        "سرعت را کم کرده و با احتیاط حرکت کند"
+      ],
+      "a_en": "Watch for a gap in traffic on the highway they are entering, adjust to highway speed in the acceleration lane and blend in smoothly",
+      "a_fa": "مراقب ایجاد فاصله در ترافیک بزرگراهی که وارد آن می‌شود باشد، سرعت خود را در لاین شتاب با بزرگراه تنظیم کند و به آرامی ادغام شود"
     },
     {
       "id": 84,
-      "q": "When a \"PASSING LANE AHEAD\" sign is posted, the driver of a slower moving vehicle should:",
-      "opts": [
+      "q_en": "When a \"PASSING LANE AHEAD\" sign is posted, the driver of a slower moving vehicle should:",
+      "q_fa": "هنگامی که تابلوی «لاین سبقت در پیش است» نصب شده است، راننده یک خودروی کندرو باید:",
+      "opts_en": [
         "Use the right lane and reduce their speed to half the posted speed limit",
         "Use the left lane only",
         "Increase speed",
         "Move into the right lane when safe"
       ],
-      "a": "Move into the right lane when safe"
+      "opts_fa": [
+        "از لاین سمت راست استفاده کند و سرعت خود را به نصف حد مجاز کاهش دهد",
+        "فقط از لاین سمت چپ استفاده کند",
+        "سرعت را افزایش دهد",
+        "در صورت ایمن بودن به لاین سمت راست برود"
+      ],
+      "a_en": "Move into the right lane when safe",
+      "a_fa": "در صورت ایمن بودن به لاین سمت راست برود"
     },
     {
       "id": 102,
-      "q": "A solid yellow line together with a broken yellow line marked on the centre of a highway means:",
-      "opts": [
+      "q_en": "A solid yellow line together with a broken yellow line marked on the centre of a highway means:",
+      "q_fa": "یک خط زرد ممتد همراه با یک خط زرد منقطع در وسط بزرگراه به چه معناست؟",
+      "opts_en": [
         "The road narrows ahead",
         "If the solid line is on your side, passing is permitted",
         "If the broken line is on your side, passing is not permitted",
         "If the broken line is on your side, passing is permitted"
       ],
-      "a": "If the broken line is on your side, passing is permitted"
+      "opts_fa": [
+        "جاده در پیش رو باریک می‌شود",
+        "اگر خط ممتد در سمت شما باشد، سبقت گرفتن مجاز است",
+        "اگر خط منقطع در سمت شما باشد، سبقت گرفتن مجاز نیست",
+        "اگر خط منقطع در سمت شما باشد، سبقت گرفتن مجاز است"
+      ],
+      "a_en": "If the broken line is on your side, passing is permitted",
+      "a_fa": "اگر خط منقطع در سمت شما باشد، سبقت گرفتن مجاز است"
     }
   ],
   "Traffic Lights & Control Signals": [
     {
       "id": 12,
-      "q": "A traffic-lane control light with an illuminated red \"X\" means:",
-      "opts": [
+      "q_en": "A traffic-lane control light with an illuminated red \"X\" means:",
+      "q_fa": "چراغ کنترل لاین با یک علامت ضربدر \"X\" قرمز روشن به چه معناست؟",
+      "opts_en": [
         "Prepare for an emergency vehicle travelling in that lane",
         "Reduce speed to below 30 km/h",
         "Use that lane only for the purpose of making left turns",
         "Travel is not permitted in that lane"
       ],
-      "a": "Travel is not permitted in that lane"
+      "opts_fa": [
+        "برای خودروی اضطراری که در آن لاین در حال حرکت است آماده شوید",
+        "سرعت را به زیر ۳۰ کیلومتر بر ساعت کاهش دهید",
+        "از آن لاین فقط به منظور گردش به چپ استفاده کنید",
+        "حرکت در آن لاین مجاز نیست"
+      ],
+      "a_en": "Travel is not permitted in that lane",
+      "a_fa": "حرکت در آن لاین مجاز نیست"
     },
     {
       "id": 19,
-      "q": "A driver approaching a flashing red traffic light must:",
-      "opts": [
+      "q_en": "A driver approaching a flashing red traffic light must:",
+      "q_fa": "راننده‌ای که به چراغ قرمز چشمک‌زن نزدیک می‌شود باید:",
+      "opts_en": [
         "Stop and wait for the flashing green light",
         "Reduce speed and proceed with caution",
         "Stop and proceed only when safe to do so",
         "Stop until the signal light turns green"
       ],
-      "a": "Stop and proceed only when safe to do so"
+      "opts_fa": [
+        "متوقف شود و منتظر چراغ سبز چشمک‌زن بماند",
+        "سرعت را کم کرده و با احتیاط حرکت کند",
+        "کاملاً متوقف شود و تنها زمانی که ایمن است حرکت کند",
+        "متوقف شود تا چراغ راهنمایی سبز شود"
+      ],
+      "a_en": "Stop and proceed only when safe to do so",
+      "a_fa": "کاملاً متوقف شود و تنها زمانی که ایمن است حرکت کند"
     },
     {
       "id": 53,
-      "q": "What does a flashing yellow traffic light mean?",
-      "opts": ["The traffic light will turn green", "Stop until the light stops flashing", "The traffic light will turn red", "Proceed with caution"],
-      "a": "Proceed with caution"
+      "q_en": "What does a flashing yellow traffic light mean?",
+      "q_fa": "چراغ زرد چشمک‌زن راهنمایی به چه معناست؟",
+      "opts_en": ["The traffic light will turn green", "Stop until the light stops flashing", "The traffic light will turn red", "Proceed with caution"],
+      "opts_fa": ["چراغ راهنمایی سبز خواهد شد", "متوقف شوید تا چشمک زدن چراغ متوقف شود", "چراغ راهنمایی قرمز خواهد شد", "با احتیاط حرکت کنید"],
+      "a_en": "Proceed with caution",
+      "a_fa": "با احتیاط حرکت کنید"
     },
     {
       "id": 101,
-      "q": "When approaching an intersection displaying a steady yellow traffic light:",
-      "opts": [
+      "q_en": "When approaching an intersection displaying a steady yellow traffic light:",
+      "q_fa": "هنگام نزدیک شدن به تقاطعی که چراغ زرد ثابت را نشان می‌دهد راننده باید:",
+      "opts_en": [
         "Proceed since the light is about to turn green",
         "Yield to vehicles on the right",
         "Stop before the intersection unless the stop cannot be made in safety",
         "Increase speed to clear the intersection"
       ],
-      "a": "Stop before the intersection unless the stop cannot be made in safety"
+      "opts_fa": [
+        "به حرکت ادامه دهد زیرا چراغ در حال سبز شدن است",
+        "به خودروهای سمت راست حق تقدم دهد",
+        "قبل از تقاطع متوقف شود، مگر اینکه توقف به صورت ایمن امکان‌پذیر نباشد",
+        "سرعت را افزایش دهد تا از تقاطع عبور کند"
+      ],
+      "a_en": "Stop before the intersection unless the stop cannot be made in safety",
+      "a_fa": "قبل از تقاطع متوقف شود، مگر اینکه توقف به صورت ایمن امکان‌پذیر نباشد"
     }
   ],
   "Special Zones & Restricted Vehicles": [
     {
       "id": 32,
-      "q": "A \"slow-moving vehicle\" sign must be displayed on the rear of any vehicle that normally travels at speeds less than:",
-      "opts": ["50 km/h", "40 km/h", "70 km/h", "60 km/h"],
-      "a": "40 km/h"
+      "q_en": "A \"slow-moving vehicle\" sign must be displayed on the rear of any vehicle that normally travels at speeds less than:",
+      "q_fa": "تابلوی «خودروی کندرو» باید در پشت هر خودرویی که به طور معمول با سرعت کمتر از چقدر حرکت می‌کند نصب شود؟",
+      "opts_en": ["50 km/h", "40 km/h", "70 km/h", "60 km/h"],
+      "opts_fa": ["۵۰ کیلومتر بر ساعت", "۴۰ کیلومتر بر ساعت", "۷۰ کیلومتر بر ساعت", "۶۰ کیلومتر بر ساعت"],
+      "a_en": "40 km/h",
+      "a_fa": "۴۰ کیلومتر بر ساعت"
     },
     {
       "id": 38,
-      "q": "The speed limit in a construction zone must be obeyed:",
-      "opts":["Only during daylight hours", "Only when a flag person is posted nearby", "At all times", "Only when construction workers are present"],
-      "a": "At all times"
+      "q_en": "The speed limit in a construction zone must be obeyed:",
+      "q_fa": "محدودیت سرعت در منطقه کارگاه ساختمانی (Construction zone) باید رعایت شود:",
+      "opts_en": ["Only during daylight hours", "Only when a flag person is posted nearby", "At all times", "Only when construction workers are present"],
+      "opts_fa": ["تنها در طول ساعات روز", "تنها زمانی که یک مأمور پرچم‌دار در نزدیکی مستقر باشد", "در تمام اوقات و ساعات", "تنها زمانی که کارگران ساختمانی حضور داشته باشند"],
+      "a_en": "At all times",
+      "a_fa": "در تمام اوقات و ساعات"
     },
     {
       "id": 54,
-      "q": "Unless otherwise posted, the school zone speed limits are in effect on school days during the following hours:",
-      "opts": [
+      "q_en": "Unless otherwise posted, the school zone speed limits are in effect on school days during the following hours:",
+      "q_fa": "در صورت عدم وجود تابلوی دیگر، محدودیت‌های سرعت منطقه مدرسه در روزهای مدرسه در چه ساعاتی اعمال می‌شوند؟",
+      "opts_en": [
         "8:30 A.M. to 1 hour after sunset",
         "8:00 A.M. to 9:30 A.M., 11:30 A.M. to 1:30 P.M. and 3:00 P.M. to 4:30 P.M.",
         "8:30 A.M. to 9:30 A.M., 12:00 P.M. to 1:00 P.M. and 3:30 P.M. to 4:00 P.M.",
         "8:00 A.M. to 4:30 P.M."
       ],
-      "a": "8:00 A.M. to 9:30 A.M., 11:30 A.M. to 1:30 P.M. and 3:00 P.M. to 4:30 P.M."
+      "opts_fa": [
+        "۸:۳۰ صبح تا ۱ ساعت پس از غروب آفتاب",
+        "۸:۰۰ تا ۹:۳۰ صبح، ۱۱:۳۰ صبح تا ۱:۳۰ بعد از ظهر و ۳:۰۰ تا ۴:۳۰ بعد از ظهر",
+        "۸:۳۰ تا ۹:۳۰ صبح، ۱۲:۰۰ تا ۱:۰۰ بعد از ظهر و ۳:۳۰ تا ۴:۰۰ بعد از ظهر",
+        "۸:۰۰ صبح تا ۴:۳۰ بعد از ظهر"
+      ],
+      "a_en": "8:00 A.M. to 9:30 A.M., 11:30 A.M. to 1:30 P.M. and 3:00 P.M. to 4:30 P.M.",
+      "a_fa": "۸:۰۰ تا ۹:۳۰ صبح، ۱۱:۳۰ صبح تا ۱:۳۰ بعد از ظهر و ۳:۰۰ تا ۴:۳۰ بعد از ظهر"
     },
     {
       "id": 58,
-      "q": "When approaching the rear of a stopped school bus that has its alternately flashing red lights activated, a driver must:",
-      "opts": [
+      "q_en": "When approaching the rear of a stopped school bus that has its alternately flashing red lights activated, a driver must:",
+      "q_fa": "هنگام نزدیک شدن به پشت یک اتوبوس مدرسه متوقف‌شده که چراغ‌های قرمز چشمک‌زن متناوب آن فعال است، راننده باید:",
+      "opts_en": [
         "Sound the horn to alert any pedestrians and pass at a slow rate of speed",
         "Stop behind the bus and wait until the alternating red lights stop flashing",
         "Move to the left lane, reduce speed to 30 km/h and pass cautiously",
         "Stop behind the bus, look carefully for pedestrians and, if clear, drive past the bus slowly"
       ],
-      "a": "Stop behind the bus and wait until the alternating red lights stop flashing"
+      "opts_fa": [
+        "بوق بزند تا به عابران پیاده هشدار دهد و با سرعت کم عبور کند",
+        "پشت اتوبوس متوقف شود و منتظر بماند تا چشمک زدن چراغ‌های قرمز متناوب متوقف شود",
+        "به لاین سمت چپ برود، سرعت را به ۳۰ کیلومتر بر ساعت کاهش دهد و با احتیاط عبور کند",
+        "پشت اتوبوس متوقف شود، به دقت مراقب عابران پیاده باشد و در صورت خالی بودن مسیر، به آرامی از کنار اتوبوس عبور کند"
+      ],
+      "a_en": "Stop behind the bus and wait until the alternating red lights stop flashing",
+      "a_fa": "پشت اتوبوس متوقف شود و منتظر بماند تا چشمک زدن چراغ‌های قرمز متناوب متوقف شود"
     },
     {
       "id": 64,
-      "q": "Playground zones are in effect:",
-      "opts": [
+      "q_en": "Playground zones are in effect:",
+      "q_fa": "محدودیت‌های مناطق بازی کودکان (Playground zones) در چه زمانی اعمال می‌شوند؟",
+      "opts_en": [
         "From 8:30 A.M. to 1 hour after sunset.",
         "From 8:00 A.M. to 8:00 P.M.",
         "During daylight hours and until 11:00 P.M.",
         "Only when school lets out at noon and after 4:30 P.M."
       ],
-      "a": "From 8:30 A.M. to 1 hour after sunset."
+      "opts_fa": [
+        "از ساعت ۸:۳۰ صبح تا ۱ ساعت پس از غروب آفتاب",
+        "از ساعت ۸:۰۰ صبح تا ۸:۰۰ شب",
+        "در طول ساعات روز و تا ساعت ۱۱:۰۰ شب",
+        "تنها زمانی که مدرسه در ظهر تعطیل می‌شود و بعد از ساعت ۴:۳۰ بعد از ظهر"
+      ],
+      "a_en": "From 8:30 A.M. to 1 hour after sunset.",
+      "a_fa": "از ساعت ۸:۳۰ صبح تا ۱ ساعت پس از غروب آفتاب"
     },
     {
       "id": 85,
-      "q": "When approaching the rear of a school bus that is displaying alternating flashing amber lights, a driver should:",
-      "opts": [
+      "q_en": "When approaching the rear of a school bus that is displaying alternating flashing amber lights, a driver should:",
+      "q_fa": "هنگام نزدیک شدن به پشت یک اتوبوس مدرسه که چراغ‌های زرد (amber) چشمک‌زن متناوب را نشان می‌دهد، راننده باید:",
+      "opts_en": [
         "Be prepared to stop as this is a warning that the alternating flashing red lights will come on once the bus has stopped",
         "Be prepared to stop as this could be a warning that there is a collision ahead and the traffic flow has stopped",
         "Stop immediately because the school bus is loading or unloading students",
         "Use caution as the school bus is approaching a railroad crossing and is about to stop"
       ],
-      "a": "Be prepared to stop as this is a warning that the alternating flashing red lights will come on once the bus has stopped"
+      "opts_fa": [
+        "برای توقف آماده شود زیرا این یک هشدار است که پس از توقف اتوبوس، چراغ‌های قرمز چشمک‌زن روشن خواهند شد",
+        "برای توقف آماده شود زیرا این می‌تواند هشداری باشد که تصادفی در پیش است و جریان ترافیک متوقف شده است",
+        "فوراً متوقف شود زیرا اتوبوس مدرسه در حال سوار یا پیاده کردن دانش‌آموزان است",
+        "احتیاط کند زیرا اتوبوس مدرسه به تقاطع راه‌آهن نزدیک می‌شود و در حال توقف است"
+      ],
+      "a_en": "Be prepared to stop as this is a warning that the alternating flashing red lights will come on once the bus has stopped",
+      "a_fa": "برای توقف آماده شود زیرا این یک هشدار است که پس از توقف اتوبوس، چراغ‌های قرمز چشمک‌زن روشن خواهند شد"
     },
     {
       "id": 89,
-      "q": "When approaching a railway crossing that has the flashing red light and bell activated:",
-      "opts": [
+      "q_en": "When approaching a railway crossing that has the flashing red light and bell activated:",
+      "q_fa": "هنگام نزدیک شدن به تقاطع راه‌آهن که چراغ قرمز چشمک‌زن و زنگ آن فعال است راننده باید:",
+      "opts_en": [
         "Cross the tracks if the train is a minimum of 250 metres away",
         "Reduce speed, check for trains, and then proceed across the tracks",
         "Do not stop and do not change gears while crossing the tracks",
         "Stop at least 5 metres from the nearest rail until the train has passed"
       ],
-      "a": "Stop at least 5 metres from the nearest rail until the train has passed"
+      "opts_fa": [
+        "اگر قطار حداقل ۲۵0 متر فاصله دارد، از ریل عبور کند",
+        "سرعت را کم کند، قطار را بررسی کند و سپس از ریل عبور کند",
+        "متوقف نشود و هنگام عبور از روی ریل دنده را عوض نکند",
+        "حداقل ۵ متر از نزدیک‌ترین ریل متوقف شود تا زمانی که قطار عبور کند"
+      ],
+      "a_en": "Stop at least 5 metres from the nearest rail until the train has passed",
+      "a_fa": "حداقل ۵ متر از نزدیک‌ترین ریل متوقف شود تا زمانی که قطار عبور کند"
     },
     {
       "id": 92,
-      "q": "Why is it not safe to pass a loaded log-haul truck that is turning?",
-      "opts": [
+      "q_en": "Why is it not safe to pass a loaded log-haul truck that is turning?",
+      "q_fa": "چرا سبقت گرفتن از یک کامیون حمل تنه درخت بارگیری‌شده در حال پیچیدن ایمن نیست؟",
+      "opts_en": [
         "The driver of the truck needs to fully concentrate on the turn and does not need the added responsibility of a passing vehicle",
         "Loaded log-haul trucks obey the 6-second rule for turns",
         "A danger zone exists as the overhang of the logs from the tail end of the truck could block all the lanes on a highway during the turn",
         "It is illegal to do so"
       ],
-      "a": "A danger zone exists as the overhang of the logs from the tail end of the truck could block all the lanes on a highway during the turn"
+      "opts_fa": [
+        "راننده کامیون باید کاملاً روی پیچیدن تمرکز کند و نیازی به مسئولیت اضافی خودروی در حال سبقت ندارد",
+        "کامیون‌های بارگیری‌شده از قانون ۶ ثانیه برای پیچ‌ها تبعیت می‌کنند",
+        "یک منطقه خطر ایجاد می‌شود زیرا بیرون‌زدگی تنه‌ها از انتهای کامیون می‌تواند تمام لاین‌های بزرگراه را در طول پیچ مسدود کند",
+        "این کار غیرقانونی است"
+      ],
+      "a_en": "A danger zone exists as the overhang of the logs from the tail end of the truck could block all the lanes on a highway during the turn",
+      "a_fa": "یک منطقه خطر ایجاد می‌شود زیرا بیرون‌زدگی تنه‌ها از انتهای کامیون می‌تواند تمام لاین‌های بزرگراه را در طول پیچ مسدود کند"
     },
     {
       "id": 103,
-      "q": "At 9:00 A.M. on a school day, what is the maximum speed permitted in a school zone in a rural area, unless otherwise posted?",
-      "opts": ["50 km/h", "20 km/h", "40 km/h", "30 km/h"],
-      "a": "30 km/h"
+      "q_en": "At 9:00 A.M. on a school day, what is the maximum speed permitted in a school zone in a rural area, unless otherwise posted?",
+      "q_fa": "در ساعت ۹:۰۰ صبح یک روز تحصیلی، حداکثر سرعت مجاز در منطقه مدرسه در یک منطقه روستایی چقدر است، مگر اینکه تابلوی دیگری نصب شده باشد؟",
+      "opts_en": ["50 km/h", "20 km/h", "40 km/h", "30 km/h"],
+      "opts_fa": ["۵۰ کیلومتر بر ساعت", "۲۰ کیلومتر بر ساعت", "۴۰ کیلومتر بر ساعت", "۳۰ کیلومتر بر ساعت"],
+      "a_en": "30 km/h",
+      "a_fa": "۳۰ کیلومتر بر ساعت"
     }
   ],
   "Pedestrians & Sharing the Road": [
     {
       "id": 14,
-      "q": "When approaching a Yield sign, you must:",
-      "opts": [
+      "q_en": "When approaching a Yield sign, you must:",
+      "q_fa": "هنگام نزدیک شدن به تابلوی حق تقدم (Yield)، شما باید:",
+      "opts_en": [
         "Yield the right-of-way to traffic not facing the sign and all pedestrians in the intersection",
         "Always sound the horn to warn other traffic within the intersection",
         "Expect all other vehicles to yield the right-of-way to you",
         "Come to a stop and proceed after looking to the right and left"
       ],
-      "a": "Yield the right-of-way to traffic not facing the sign and all pedestrians in the intersection"
+      "opts_fa": [
+        "حق تقدم را به ترافیکی که روبروی تابلو نیست و همه عابران پیاده در تقاطع واگذار کنید",
+        "همیشه بوق بزنید تا به سایر ترافیک درون تقاطع هشدار دهید",
+        "انتظار داشته باشید که سایر وسایل نقلیه حق تقدم را به شما بدهند",
+        "کاملاً متوقف شوید و پس از نگاه کردن به راست و چپ حرکت کنید"
+      ],
+      "a_en": "Yield the right-of-way to traffic not facing the sign and all pedestrians in the intersection",
+      "a_fa": "حق تقدم را به ترافیکی که روبروی تابلو نیست و همه عابران پیاده در تقاطع واگذار کنید"
     },
     {
       "id": 81,
-      "q": "When a vehicle is stopped to allow a pedestrian to cross the road, other vehicles that are approaching from the rear:",
-      "opts": [
+      "q_en": "When a vehicle is stopped to allow a pedestrian to cross the road, other vehicles that are approaching from the rear:",
+      "q_fa": "هنگامی که خودرویی برای اجازه عبور به عابر پیاده متوقف شده است، خودروهای دیگری که از پشت نزدیک می‌شوند:",
+      "opts_en": [
         "May pass the stopped vehicle if there is no oncoming traffic that may impede passing safely",
         "Must not pass the stopped vehicle. It is illegal",
         "May pass the stopped vehicle when eye contact is made with the pedestrian and the pedestrian stops",
         "May pass the stopped vehicle when the pedestrian crossing signal has changed to 'Don't Walk'"
       ],
-      "a": "Must not pass the stopped vehicle. It is illegal"
+      "opts_fa": [
+        "می‌توانند از خودروی متوقف‌شده سبقت بگیرند اگر ترافیک روبرویی وجود نداشته باشد که مانع سبقت ایمن شود",
+        "نباید از خودروی متوقف‌شده سبقت بگیرند. این کار غیرقانونی است",
+        "می‌توانند از خودروی متوقف‌شده سبقت بگیرند زمانی که با عابر پیاده ارتباط چشمی برقرار شد و عابر متوقف گشت",
+        "می‌توانند از خودروی متوقف‌شده سبقت بگیرند زمانی که چراغ عبور عابر پیاده به حالت 'Don't Walk' تغییر کرده باشد"
+      ],
+      "a_en": "Must not pass the stopped vehicle. It is illegal",
+      "a_fa": "نباید از خودروی متوقف‌شده سبقت بگیرند. این کار غیرقانونی است"
     },
     {
       "id": 98,
-      "q": "In an urban area, when a pedestrian is standing at a crosswalk with their arm raised at approximately right angles to their body and pointing to the opposite curb, what does this mean?",
-      "opts": [
+      "q_en": "In an urban area, when a pedestrian is standing at a crosswalk with their arm raised at approximately right angles to their body and pointing to the opposite curb, what does this mean?",
+      "q_fa": "در مناطق شهری، هنگامی که عابری در خط عابر پیاده ایستاده و دست خود را تقریباً با زاویه قائم نسبت به بدنش بلند کرده و به جدول مقابل اشاره می‌کند، این به چه معناست؟",
+      "opts_en": [
         "Drivers must stop and yield to the pedestrian",
         "The pedestrian is visually impaired and needs assistance to cross the road",
         "Drivers do not have to yield to the pedestrian until they step off the curb",
         "Drivers should reduce speed to 20 km/h and be cautious when passing the pedestrian"
       ],
-      "a": "Drivers must stop and yield to the pedestrian"
+      "opts_fa": [
+        "رانندگان باید متوقف شوند و به عابر پیاده حق تقدم دهند",
+        "عابر پیاده دارای اختلال بینایی است و برای عبور از جاده نیاز به کمک دارد",
+        "رانندگان مجبور نیستند به عابر حق تقدم دهند تا زمانی که او از جدول پا به خیابان بگذارد",
+        "رانندگان باید سرعت را به ۲۰ کیلومتر بر ساعت کاهش دهند و هنگام عبور از کنار عابر محتاط باشند"
+      ],
+      "a_en": "Drivers must stop and yield to the pedestrian",
+      "a_fa": "رانندگان باید متوقف شوند و به عابر پیاده حق تقدم دهند"
     }
   ],
   "Parking Rules & Distances": [
     {
       "id": 22,
-      "q": "When parallel parking, the vehicle's wheels closest to the curb must be within what maximum distance?",
-      "opts": ["80 centimetres from the curb", "30 centimetres from the curb", "10 centimetres from the curb", "50 centimetres from the curb"],
-      "a": "30 centimetres from the curb"
+      "q_en": "When parallel parking, the vehicle's wheels closest to the curb must be within what maximum distance?",
+      "q_fa": "هنگام پارک دوبل (Parallel parking)، چرخ‌های خودرو که به جدول نزدیک‌تر هستند باید در چه حداکثر فاصله‌ای قرار گیرند؟",
+      "opts_en": ["80 centimetres from the curb", "30 centimetres from the curb", "10 centimetres from the curb", "50 centimetres from the curb"],
+      "opts_fa": ["۸۰ سانتی‌متری از جدول", "۳۰ سانتی‌متری از جدول", "۱۰ سانتی‌متری از جدول", "۵۰ سانتی‌متری از جدول"],
+      "a_en": "30 centimetres from the curb",
+      "a_fa": "۳۰ سانتی‌متری از جدول"
     },
     {
       "id": 57,
-      "q": "Which direction should a vehicle's front wheels be turned when parked uphill on a two-way road with a curb?",
-      "opts": ["Parallel to the curb", "To the left", "To the right", "Straight ahead"],
-      "a": "To the left"
+      "q_en": "Which direction should a vehicle's front wheels be turned when parked uphill on a two-way road with a curb?",
+      "q_fa": "هنگام پارک کردن در سربالایی در یک جاده دوطرفه دارای جدول (کرب)، چرخ‌های جلوی خودرو باید به کدام سمت چرخونده شوند؟",
+      "opts_en": ["Parallel to the curb", "To the left", "To the right", "Straight ahead"],
+      "opts_fa": ["موازی با جدول", "به سمت چپ", "به سمت راست", "مستقیم"],
+      "a_en": "To the left",
+      "a_fa": "به سمت چپ"
     },
     {
       "id": 62,
-      "q": "Before leaving a parallel parking space on the right side of a road:",
-      "opts": ["Turn on the right signal", "Shoulder check to the left", "Shoulder check to the right", "Use an arm signal straight out and up"],
-      "a": "Shoulder check to the left"
+      "q_en": "Before leaving a parallel parking space on the right side of a road:",
+      "q_fa": "قبل از خروج از پارک دوبل در سمت راست جاده راننده باید:",
+      "opts_en": ["Turn on the right signal", "Shoulder check to the left", "Shoulder check to the right", "Use an arm signal straight out and up"],
+      "opts_fa": ["راهنمای سمت راست را روشن کند", "شانه سمت چپ را چک کند (Shoulder check)", "شانه سمت راست را چک کند", "از علامت دست به صورت مستقیم به بیرون و بالا استفاده کند"],
+      "a_en": "Shoulder check to the left",
+      "a_fa": "شانه سمت چپ را چک کند (Shoulder check)"
     },
     {
       "id": 67,
-      "q": "How close can a driver legally park a vehicle to a Stop sign?",
-      "opts": ["10 metres", "5 metres", "3 metres", "1.5 metres"],
-      "a": "5 metres"
+      "q_en": "How close can a driver legally park a vehicle to a Stop sign?",
+      "q_fa": "یک راننده از نظر قانونی تا چه حد مجاز است نزدیک به یک تابلوی ایست (Stop) پارک کند؟",
+      "opts_en": ["10 metres", "5 metres", "3 metres", "1.5 metres"],
+      "opts_fa": ["۱۰ متری", "۵ متری", "۳ متری", "۱.۵ متری"],
+      "a_en": "5 metres",
+      "a_fa": "۵ متری"
     },
     {
       "id": 68,
-      "q": "Parking in a space reserved for persons with disabilities is permitted:",
-      "opts": [
+      "q_en": "Parking in a space reserved for persons with disabilities is permitted:",
+      "q_fa": "پارک کردن در فضای رزرواسیون اختصاصی افراد دارای معلولیت مجاز است:",
+      "opts_en": [
         "When all other parking spaces are filled",
         "While the driver is waiting in the vehicle",
         "When a driver stops for less than 5 minutes",
         "When the vehicle has a proper identifying placard or licence plate."
       ],
-      "a": "When the vehicle has a proper identifying placard or licence plate."
+      "opts_fa": [
+        "زمانی که تمام فضاهای پارک دیگر پر شده باشند",
+        "در حالی که راننده درون خودرو منتظر ایستاده است",
+        "زمانی که راننده برای کمتر از ۵ دقیقه توقف می‌کند",
+        "زمانی که خودرو دارای پلاکارد شناسایی یا پلاک مخصوص معلولین باشد"
+      ],
+      "a_en": "When the vehicle has a proper identifying placard or licence plate.",
+      "a_fa": "زمانی که خودرو دارای پلاکارد شناسایی یا پلاک مخصوص معلولین باشد"
     },
     {
       "id": 97,
-      "q": "When completing an angle park, the vehicle's front wheel must be within what maximum distance from the nearest curb?",
-      "opts": ["100 cm", "50 cm", "25 cm", "75 cm"],
-      "a": "50 cm"
+      "q_en": "When completing an angle park, the vehicle's front wheel must be within what maximum distance from the nearest curb?",
+      "q_fa": "هنگام انجام پارک مورب (Angle park)، چرخ جلوی خودرو باید در چه حداکثر فاصله‌ای از نزدیک‌ترین جدول قرار گیرد؟",
+      "opts_en": ["100 cm", "50 cm", "25 cm", "75 cm"],
+      "opts_fa": ["۱۰۰ سانتی‌متر", "۵۰ سانتی‌متر", "۲۵ سانتی‌متر", "۷۵ سانتی‌متر"],
+      "a_en": "50 cm",
+      "a_fa": "۵۰ سانتی‌متر"
     }
   ],
   "Laws, Demerits & Administrative Rules": [
     {
       "id": 4,
-      "q": "Alberta has a demerit point system where a fully licenced (non-learner, non-probationary) driver is suspended when they accumulate:",
-      "opts": ["15 points", "8 points", "5 points", "12 points"],
-      "a": "15 points"
+      "q_en": "Alberta has a demerit point system where a fully licenced (non-learner, non-probationary) driver is suspended when they accumulate:",
+      "q_fa": "آلبرتا دارای سیستم نمره منفی (دمریت) است که در آن گواهینامه یک راننده با گواهینامه کامل (غیر هنرجو و غیر آزمایشی) در صورت جمع‌آوری چند امتیاز تعلیق می‌شود؟",
+      "opts_en": ["15 points", "8 points", "5 points", "12 points"],
+      "opts_fa": ["۱۵ امتیاز", "۸ امتیاز", "۵ امتیاز", "۱۲ امتیاز"],
+      "a_en": "15 points",
+      "a_fa": "۱۵ امتیاز"
     },
     {
       "id": 13,
-      "q": "Does a parent have the right to withdraw a previously given \"parental consent\" for someone under 18 years of age with respect to an operator's licence?",
-      "opts": [
+      "q_en": "Does a parent have the right to withdraw a previously given \"parental consent\" for someone under 18 years of age with respect to an operator's licence?",
+      "q_fa": "آیا والدین این حق را دارند که «رضایت والدینی» قبلی خود را برای فرد زیر ۱۸ سال در رابطه با گواهینامه رانندگی پس بگیرند؟",
+      "opts_en": [
         "Yes, provided the person is still under the age of 18 and is not self-supporting or married",
         "Yes, provided that both parents verbally agree to withdraw the consent at a registry office",
         "No, once it is given it remains in effect until the person reaches 18 years of age",
         "No, but another consent form must be signed by both parents after a licence suspension"
       ],
-      "a": "Yes, provided the person is still under the age of 18 and is not self-supporting or married"
+      "opts_fa": [
+        "بله، مشروط بر اینکه فرد همچنان زیر ۱۸ سال بوده و مستقل یا متاهل نباشد",
+        "بله، مشروط بر اینکه هر دو والد به صورت شفاهی در دفتر ثبت اسناد (رجیستری) با پس گرفتن رضایت موافقت کنند",
+        "خیر، پس از اعطا، رضایت تا زمانی که فرد به سن ۱۸ سالگی برسد نافذ باقی می‌ماند",
+        "خیر، اما فرم رضایت دیگری باید توسط هر دو والد پس از تعلیق گواهینامه امضا شود"
+      ],
+      "a_en": "Yes, provided the person is still under the age of 18 and is not self-supporting or married",
+      "a_fa": "بله، مشروط بر اینکه فرد همچنان زیر ۱۸ سال بوده و مستقل یا متاهل نباشد"
     },
     {
       "id": 16,
-      "q": "Under the Graduated Driver Licensing program, a driver will receive 2 demerits:",
-      "opts": [
+      "q_en": "Under the Graduated Driver Licensing program, a driver will receive 2 demerits:",
+      "q_fa": "در برنامه گواهینامه مرحله‌ای (GDL)، راننده ۲ نمره منفی دریافت می‌کند برای:",
+      "opts_en": [
         "For having more passengers than there are seat belts",
         "For not wearing a seat belt securely fastened",
         "For not wearing a seat belt",
         "For not wearing a seat belt properly adjusted"
       ],
-      "a": "For having more passengers than there are seat belts"
+      "opts_fa": [
+        "داشتن مسافرانی بیشتر از تعداد کمربندهای ایمنی موجود",
+        "نبستن محکم کمربند ایمنی",
+        "استفاده نکردن از کمربند ایمنی",
+        "استفاده نکردن از کمربند ایمنی به صورت تنظیم‌شده و صحیح"
+      ],
+      "a_en": "For having more passengers than there are seat belts",
+      "a_fa": "داشتن مسافرانی بیشتر از تعداد کمربندهای ایمنی موجود"
     },
     {
       "id": 21,
-      "q": "According to the law in Alberta, it is the driver's responsibility to ensure that all passengers under what age are properly restrained in the vehicle?",
-      "opts": ["18 years", "24 years", "21 years", "16 years"],
-      "a": "16 years"
+      "q_en": "According to the law in Alberta, it is the driver's responsibility to ensure that all passengers under what age are properly restrained in the vehicle?",
+      "q_fa": "طبق قانون آلبرتا، مسئولیت راننده است که اطمینان حاصل کند کلیه مسافران زیر چه سنی به درستی در خودرو با کمربند یا صندلی مخصوص مهار شده‌اند؟",
+      "opts_en": ["18 years", "24 years", "21 years", "16 years"],
+      "opts_fa": ["۱۸ سال", "۲۴ سال", "۲۱ سال", "۱۶ سال"],
+      "a_en": "16 years",
+      "a_fa": "۱۶ سال"
     },
     {
       "id": 23,
-      "q": "Who is responsible and legally obligated to report any medical condition, change in health, or physical disability that may affect a driver's ability to drive?",
-      "opts": ["The driver's employer", "The driver", "The driver's doctor", "The driver's insurance company"],
-      "a": "The driver"
+      "q_en": "Who is responsible and legally obligated to report any medical condition, change in health, or physical disability that may affect a driver's ability to drive?",
+      "q_fa": "چه کسی مسئول و قانوناً موظف است هرگونه وضعیت پزشکی، تغییر در سلامت یا ناتوانی جسمی را که ممکن است بر توانایی رانندگی تأثیر بگذارد گزارش دهد؟",
+      "opts_en": ["The driver's employer", "The driver", "The driver's doctor", "The driver's insurance company"],
+      "opts_fa": ["کارفرمای راننده", "خود راننده", "پزشک راننده", "شرکت بیمه راننده"],
+      "a_en": "The driver",
+      "a_fa": "خود راننده"
     },
     {
       "id": 26,
-      "q": "Under the Graduated Driver Licensing program, what is the minimum amount of time that a person must serve as a probationary Class 5 driver?",
-      "opts": ["6 months", "18 months", "2 years", "1 year"],
-      "a": "2 years"
+      "q_en": "Under the Graduated Driver Licensing program, what is the minimum amount of time that a person must serve as a probationary Class 5 driver?",
+      "q_fa": "در برنامه گواهینامه مرحله‌ای (GDL)، حداقل مدت زمانی که یک فرد باید به عنوان راننده آزمایشی کلاس ۵ فعالیت کند چقدر است؟",
+      "opts_en": ["6 months", "18 months", "2 years", "1 year"],
+      "opts_fa": ["۶ ماه", "۱۸ ماه", "۲ سال", "۱ سال"],
+      "a_en": "2 years",
+      "a_fa": "۲ سال"
     },
     {
       "id": 28,
-      "q": "A driver is required to report all collisions to the police when persons have been injured or killed, or when combined damage to all vehicles or property is more than:",
-      "opts": ["$750", "$1000", "$250", "$2000 (Standardized modern Alberta threshold)"],
-      "a": "$2000 (Standardized modern Alberta threshold)"
+      "q_en": "A driver is required to report all collisions to the police when persons have been injured or killed, or when combined damage to all vehicles or property is more than:",
+      "q_fa": "راننده موظف است تمام تصادفات را به پلیس گزارش دهد زمانی که افرادی مجروح یا کشته شده باشند، یا زمانی که مجموع خسارت وارده به تمام خودروها یا اموال بیش از چقدر باشد؟",
+      "opts_en": ["$750", "$1000", "$250", "$2000 (Standardized modern Alberta threshold)"],
+      "opts_fa": ["۷۵۰ دلار", "۱۰۰۰ دلار", "۲۵۰ دلار", "۲۰۰۰ دلار (سقف مدرن و استاندارد آلبرتا)"],
+      "a_en": "$2000 (Standardized modern Alberta threshold)",
+      "a_fa": "۲۰۰۰ دلار (سقف مدرن و استاندارد آلبرتا)"
     },
     {
       "id": 35,
-      "q": "A road test will be refused by a driver examiner if:",
-      "opts": [
+      "q_en": "A road test will be refused by a driver examiner if:",
+      "q_fa": "آزمون عملی جاده توسط آزمون‌گیرنده رد خواهد شد اگر:",
+      "opts_en": [
         "The vehicle has a seating capacity greater than 7",
         "The vehicle is registered as a farm vehicle",
         "The vehicle is a rental vehicle",
         "The vehicle is not mechanically safe"
       ],
-      "a": "The vehicle is not mechanically safe"
+      "opts_fa": [
+        "خودرو ظرفیت سرنشینی بیش از ۷ نفر داشته باشد",
+        "خودرو به عنوان وسیله نقلیه کشاورزی ثبت شده باشد",
+        "خودرو یک وسیله نقلیه اجاره‌ای (رنتال) باشد",
+        "خودرو از نظر مکانیکی ایمن نباشد"
+      ],
+      "a_en": "The vehicle is not mechanically safe",
+      "a_fa": "خودرو از نظر مکانیکی ایمن نباشد"
     },
     {
       "id": 36,
-      "q": "Is a driver allowed to exceed the speed limit when passing another vehicle?",
-      "opts": [
+      "q_en": "Is a driver allowed to exceed the speed limit when passing another vehicle?",
+      "q_fa": "آیا راننده مجاز است هنگام سبقت گرفتن از خودروی دیگر، از حد مجاز سرعت تجاوز کند؟",
+      "opts_en": [
         "Only when passing more than one vehicle at a time",
         "Yes, but not more than 10 km/h over the speed limit",
         "Yes, on primary highways only",
         "No, it is never permitted"
       ],
-      "a": "No, it is never permitted"
+      "opts_fa": [
+        "تنها هنگام سبقت گرفتن از بیش از یک خودرو به صورت همزمان",
+        "بله، اما نه بیشتر از ۱۰ کیلومتر بر ساعت بالاتر از حد مجاز سرعت",
+        "بله، فقط در بزرگراه‌های اصلی",
+        "خیر، این کار هرگز مجاز نیست"
+      ],
+      "a_en": "No, it is never permitted",
+      "a_fa": "خیر، این کار هرگز مجاز نیست"
     },
     {
       "id": 42,
-      "q": "In Alberta, the law requires that seat belts must be worn:",
-      "opts": ["Only while carrying passengers", "Properly at all times", "Only when driving at highway speeds", "Only when driving in the city"],
-      "a": "Properly at all times"
+      "q_en": "In Alberta, the law requires that seat belts must be worn:",
+      "q_fa": "در آلبرتا، قانون ایجاب می‌کند که کمربند ایمنی بسته شود:",
+      "opts_en": ["Only while carrying passengers", "Properly at all times", "Only when driving at highway speeds", "Only when driving in the city"],
+      "opts_fa": ["تنها هنگام حمل مسافر", "به طور صحیح در تمام اوقات", "تنها هنگام رانندگی با سرعت‌های بزرگراهی", "تنها هنگام رانندگی در شهر"],
+      "a_en": "Properly at all times",
+      "a_fa": "به طور صحیح در تمام اوقات"
     },
     {
       "id": 52,
-      "q": "Under the Graduated Driver Licensing program, a learner with a Class 7 licence is not permitted to drive a vehicle between the hours of:",
-      "opts": ["9:00 A.M. and 5:00 P.M.", "Midnight and 5:00 A.M.", "10:00 P.M. and 6:00 A.M.", "Midnight and 7:00 A.M."],
-      "a": "Midnight and 5:00 A.M."
+      "q_en": "Under the Graduated Driver Licensing program, a learner with a Class 7 licence is not permitted to drive a vehicle between the hours of:",
+      "q_fa": "در برنامه گواهینامه مرحله‌ای (GDL)، هنرجوی دارای گواهینامه کلاس ۷ مجاز به رانندگی در چه ساعاتی نیست؟",
+      "opts_en": ["9:00 A.M. and 5:00 P.M.", "Midnight and 5:00 A.M.", "10:00 P.M. and 6:00 A.M.", "Midnight and 7:00 A.M."],
+      "opts_fa": ["۹:۰۰ صبح تا ۵:۰۰ بعد از ظهر", "نیمه‌شب تا ۵:۰۰ صبح", "۱۰:۰۰ شب تا ۶:۰۰ صبح", "نیمه‌شب تا ۷:۰۰ صبح"],
+      "a_en": "Midnight and 5:00 A.M.",
+      "a_fa": "نیمه‌شب تا ۵:۰۰ صبح"
     },
     {
       "id": 72,
-      "q": "Under the Graduated Driver Licensing program, a learner with a Class 7 operator's license is suspended when they accumulate:",
-      "opts": ["15 demerits", "12 demerits", "8 demerits", "7 demerits"],
-      "a": "8 demerits"
+      "q_en": "Under the Graduated Driver Licensing program, a learner with a Class 7 operator's license is suspended when they accumulate:",
+      "q_fa": "در برنامه گواهینامه مرحله‌ای (GDL)، گواهینامه یک هنرجو با کلاس ۷ در صورت جمع‌آوری چند نمره منفی تعلیق می‌شود؟",
+      "opts_en": ["15 demerits", "12 demerits", "8 demerits", "7 demerits"],
+      "opts_fa": ["۱۵ نمره منفی", "۱۲ نمره منفی", "۸ نمره منفی", "۷ نمره منفی"],
+      "a_en": "8 demerits",
+      "a_fa": "۸ نمره منفی"
     },
     {
       "id": 82,
-      "q": "When a head restraint is raised to the proper position, the centre of the head restraint is:",
-      "opts": ["Level with the top of the ears", "Level with the top of the shoulders", "Level with the neck", "Level with the top of the head"],
-      "a": "Level with the top of the ears"
+      "q_en": "When a head restraint is raised to the proper position, the centre of the head restraint is:",
+      "q_fa": "هنگامی که پشت‌سری صندلی (Head restraint) در موقعیت مناسب قرار می‌گیرد، مرکز آن باید:",
+      "opts_en": ["Level with the top of the ears", "Level with the top of the shoulders", "Level with the neck", "Level with the top of the head"],
+      "opts_fa": ["هم‌سطح با بالای گوش‌ها", "هم‌سطح با بالای شانه‌ها", "هم‌سطح با گردن", "هم‌سطح با بالای سر"],
+      "a_en": "Level with the top of the ears",
+      "a_fa": "هم‌سطح با بالای گوش‌ها"
     },
     {
       "id": 86,
-      "q": "In the Basic Licence Driver's Handbook, \"nighttime\" is defined as the period of time:",
-      "opts": [
+      "q_en": "In the Basic Licence Driver's Handbook, \"nighttime\" is defined as the period of time:",
+      "q_fa": "در کتابچه راهنمای رانندگی، «زمان شب» (nighttime) چگونه تعریف شده است؟",
+      "opts_en": [
         "Beginning 1 hour before sunset and ending 1 hour after the following sunrise",
         "Beginning at sunset and ending at the following sunrise",
         "Between 7:00 P.M. and 7:00 A.M.",
         "Beginning 1 hour after sunset and ending 1 hour before the following sunrise"
       ],
-      "a": "Beginning 1 hour after sunset and ending 1 hour before the following sunrise"
+      "opts_fa": [
+        "شروع از ۱ ساعت قبل از غروب آفتاب و پایان تا ۱ ساعت پس از طلوع آفتاب روز بعد",
+        "شروع از خود غروب آفتاب و پایان با طلوع آفتاب روز بعد",
+        "بین ساعت ۷:۰۰ شب تا ۷:۰۰ صبح",
+        "شروع از ۱ ساعت بعد از غروب آفتاب و پایان تا ۱ ساعت قبل از طلوع آفتاب روز بعد"
+      ],
+      "a_en": "Beginning 1 hour after sunset and ending 1 hour before the following sunrise",
+      "a_fa": "شروع از ۱ ساعت بعد از غروب آفتاب و پایان تا ۱ ساعت قبل از طلوع آفتاب روز بعد"
     },
     {
       "id": 88,
-      "q": "A vehicle exiting a parking lot onto a roadway:",
-      "opts": ["Must stop only if there is a Stop sign", "Must come to a complete stop", "Must stop before crossing the sidewalk only if there are pedestrians present", "Is not required to stop"],
-      "a": "Must come to a complete stop"
+      "q_en": "A vehicle exiting a parking lot onto a roadway:",
+      "q_fa": "خودرویی که از یک پارکینگ خارج شده و وارد جاده می‌شود باید:",
+      "opts_en": ["Must stop only if there is a Stop sign", "Must come to a complete stop", "Must stop before crossing the sidewalk only if there are pedestrians present", "Is not required to stop"],
+      "opts_fa": ["باید متوقف شود تنها در صورتی که تابلوی ایست وجود داشته باشد", "باید به طور کامل متوقف شود", "باید قبل از عبور از پیاده‌رو متوقف شود تنها اگر عابر پیاده حضور داشته باشد", "نیازی به توقف ندارد"],
+      "a_en": "Must come to a complete stop",
+      "a_fa": "باید به طور کامل متوقف شود"
     }
   ],
   "Visual Road Signs & Pavement Markings": [
     {
       "id": 7,
-      "q": "This sign indicates: [White bus icon on green circle]",
-      "opts": ["Route for vehicles over 4500 kg.", "Route for slow moving vehicles", "Reserved lane for buses", "Dangerous goods route"],
-      "a": "Reserved lane for buses"
+      "q_en": "This sign indicates: [White bus icon on green circle]",
+      "q_fa": "این تابلو نشان‌دهنده چیست؟ [آیکون اتوبوس سفید در دایره سبز]",
+      "opts_en": ["Route for vehicles over 4500 kg.", "Route for slow moving vehicles", "Reserved lane for buses", "Dangerous goods route"],
+      "opts_fa": ["مسیر برای وسایل نقلیه بالای ۴۵۰۰ کیلوگرم", "مسیر برای وسایل نقلیه کندرو", "لاین اختصاصی برای اتوبوس‌ها", "مسیر کالاهای خطرناک"],
+      "a_en": "Reserved lane for buses",
+      "a_fa": "لاین اختصاصی برای اتوبوس‌ها",
+      "img": "images/sign_7.png"
     },
     {
       "id": 11,
-      "q": "This sign indicates: [Car shifting over pavement step icon]",
-      "opts": ["Off-road facilities ahead", "Slippery when wet", "Uneven pavement", "Detour ahead"],
-      "a": "Uneven pavement"
+      "q_en": "This sign indicates: [Car shifting over pavement step icon]",
+      "q_fa": "این تابلو نشان‌دهنده چیست؟ [آیکون خودرو در حال انحراف روی ناهمواری آسفالت]",
+      "opts_en": ["Off-road facilities ahead", "Slippery when wet", "Uneven pavement", "Detour ahead"],
+      "opts_fa": ["تسهیلات خارج از جاده در پیش رو", "لغزنده در صورت خیس بودن", "آسفالت ناهموار", "مسیر انحرافی در پیش رو"],
+      "a_en": "Uneven pavement",
+      "a_fa": "آسفالت ناهموار",
+      "img": "images/sign_11.png"
     },
     {
       "id": 18,
-      "q": "This sign indicates: [Right bending arrow]",
-      "opts": ["Traffic entering from the right", "Winding road ahead", "Curve right", "Concealed intersection on the right"],
-      "a": "Curve right"
+      "q_en": "This sign indicates: [Right bending arrow]",
+      "q_fa": "این تابلو نشان‌دهنده چیست؟ [فلش خمیده به راست]",
+      "opts_en": ["Traffic entering from the right", "Winding road ahead", "Curve right", "Concealed intersection on the right"],
+      "opts_fa": ["ترافیک در حال ورود از سمت راست", "جاده مارپیچ در پیش رو", "پیچ به راست", "تقاطع پنهان در سمت راست"],
+      "a_en": "Curve right",
+      "a_fa": "پیچ به راست",
+      "img": "images/sign_18.png"
     },
     {
       "id": 20,
-      "q": "This sign indicates: [Yield triangle inside warning diamond with up arrow]",
-      "opts": ["Do not enter", "Slow moving vehicles ahead", "Warning, Yield sign ahead", "Warning, traffic is approaching"],
-      "a": "Warning, Yield sign ahead"
+      "q_en": "This sign indicates: [Yield triangle inside warning diamond with up arrow]",
+      "q_fa": "این تابلو نشان‌دهنده چیست؟ [مثلث حق تقدم درون لوزی هشدار با فلش رو به بالا]",
+      "opts_en": ["Do not enter", "Slow moving vehicles ahead", "Warning, Yield sign ahead", "Warning, traffic is approaching"],
+      "opts_fa": ["ورود ممنوع", "وسایل نقلیه کندرو در پیش رو", "هشدار، تابلوی حق تقدم در پیش رو", "هشدار، ترافیک در حال نزدیک شدن است"],
+      "a_en": "Warning, Yield sign ahead",
+      "a_fa": "هشدار، تابلوی حق تقدم در پیش رو",
+      "img": "images/sign_20.png"
     },
     {
       "id": 24,
-      "q": "This sign indicates: [Left line narrowing inward]",
-      "opts": ["Road narrows, left", "Two-way traffic", "Divided highway ends", "Obstruction - keep left"],
-      "a": "Road narrows, left"
+      "q_en": "This sign indicates: [Left line narrowing inward]",
+      "q_fa": "این تابلو نشان‌دهنده چیست؟ [خط سمت چپ که به سمت داخل باریک می‌شود]",
+      "opts_en": ["Road narrows, left", "Two-way traffic", "Divided highway ends", "Obstruction - keep left"],
+      "opts_fa": ["باریک شدن جاده از سمت چپ", "ترافیک دوطرفه", "پایان بزرگراه مجزا (دو بانده)", "مانع - به چپ برانید"],
+      "a_en": "Road narrows, left",
+      "a_fa": "باریک شدن جاده از سمت چپ",
+      "img": "images/sign_24.png"
     },
     {
       "id": 25,
-      "q": "This sign indicates: [Three crests/bumps series icon]",
-      "opts": ["Rumble strips", "Construction zone", "Bump", "Pavement ends"],
-      "a": "Bump"
+      "q_en": "This sign indicates: [Three crests/bumps series icon]",
+      "q_fa": "این تابلو نشان‌دهنده چیست؟ [آیکون سه دست‌انداز/برآمدگی متوالی]",
+      "opts_en": ["Rumble strips", "Construction zone", "Bump", "Pavement ends"],
+      "opts_fa": ["خطوط لرزاننده (رامبل استریپس)", "منطقه ساخت و ساز", "دست‌انداز", "پایان آسفالت"],
+      "a_en": "Bump",
+      "a_fa": "دست‌انداز",
+      "img": "images/sign_25.png"
     },
     {
       "id": 27,
-      "q": "A large \"X\" painted on the pavement indicates:",
-      "opts": ["Construction ahead", "The traffic lane is ending", "Railway crossing ahead", "Wild animal crossing ahead"],
-      "a": "Railway crossing ahead"
+      "q_en": "A large \"X\" painted on the pavement indicates:",
+      "q_fa": "یک علامت بزرگ \"X\" که روی آسفالت جاده نقاشی شده نشان‌دهنده چیست؟",
+      "opts_en": ["Construction ahead", "The traffic lane is ending", "Railway crossing ahead", "Wild animal crossing ahead"],
+      "opts_fa": ["عملیات عمرانی در پیش رو", "لاین ترافیک در حال پایان است", "تقاطع راه‌آهن در پیش رو", "محل عبور حیوانات وحشی"],
+      "a_en": "Railway crossing ahead",
+      "a_fa": "تقاطع راه‌آهن در پیش رو",
+      "img": "images/sign_27.png"
     },
     {
       "id": 43,
-      "q": "This sign indicates: [Two cars side-by-side inside red circle with line through it]",
-      "opts": ["Heavy trucks only", "Do not pass", "No vehicles allowed", "Do not enter"],
-      "a": "Do not pass"
+      "q_en": "This sign indicates: [Two cars side-by-side inside red circle with line through it]",
+      "q_fa": "این تابلو نشان‌دهنده چیست؟ [دو خودرو کنار هم درون دایره قرمز با خط مورب روی آن]",
+      "opts_en": ["Heavy trucks only", "Do not pass", "No vehicles allowed", "Do not enter"],
+      "opts_fa": ["فقط کامیون‌های سنگین", "سبقت ممنوع", "ورود هرگونه وسیله نقلیه ممنوع", "ورود ممنوع"],
+      "a_en": "Do not pass",
+      "a_fa": "سبقت ممنوع",
+      "img": "images/sign_43.png"
     },
     {
       "id": 51,
-      "q": "This sign indicates: [Right lane closing inward marker]",
-      "opts": ["Lane ends, loss of right lane", "Added lane (free flow)", "Curve right", "Dual turn lane ahead"],
-      "a": "Lane ends, loss of right lane"
+      "q_en": "This sign indicates: [Right lane closing inward marker]",
+      "q_fa": "این تابلو نشان‌دهنده چیست؟ [علامت بسته شدن و انحراف لاین سمت راست به داخل]",
+      "opts_en": ["Lane ends, loss of right lane", "Added lane (free flow)", "Curve right", "Dual turn lane ahead"],
+      "opts_fa": ["پایان لاین، از دست رفتن لاین سمت راست", "لاین اضافه شده (جریان آزاد ترافیک)", "پیچ به راست", "لاین گردش دوگانه در پیش رو"],
+      "a_en": "Lane ends, loss of right lane",
+      "a_fa": "پایان لاین، از دست رفتن لاین سمت راست",
+      "img": "images/sign_51.png"
     },
     {
       "id": 55,
-      "q": "This sign indicates: [Pedestrian silhouette walking sign]",
-      "opts": ["Playground zone", "Pedestrian crosswalk", "Designated school bus stop", "School zone"],
-      "a": "Pedestrian crosswalk"
+      "q_en": "This sign indicates: [Pedestrian silhouette walking sign]",
+      "q_fa": "این تابلو نشان‌دهنده چیست؟ [شبح عابر پیاده در حال راه رفتن]",
+      "opts_en": ["Playground zone", "Pedestrian crosswalk", "Designated school bus stop", "School zone"],
+      "opts_fa": ["منطقه بازی کودکان", "خط عابر پیاده", "ایستگاه تعیین‌شده اتوبوس مدرسه", "منطقه مدرسه"],
+      "a_en": "Pedestrian crosswalk",
+      "a_fa": "خط عابر پیاده",
+      "img": "images/sign_55.png"
     },
     {
       "id": 60,
-      "q": "This sign indicates: [Thick letter 'T' intersection marker]",
-      "opts": ["T intersection", "Traffic lane ends", "Concealed intersection", "Trucks entering highway ahead"],
-      "a": "T intersection"
+      "q_en": "This sign indicates: [Thick letter 'T' intersection marker]",
+      "q_fa": "این تابلو نشان‌دهنده چیست؟ [علامت ضخیم تقاطع حرف T]",
+      "opts_en": ["T intersection", "Traffic lane ends", "Concealed intersection", "Trucks entering highway ahead"],
+      "opts_fa": ["تقاطع T شکل", "لاین ترافیک پایان می‌یابد", "تقاطع پنهان", "ورود کامیون‌ها به بزرگراه در پیش رو"],
+      "a_en": "T intersection",
+      "a_fa": "تقاطع T شکل",
+      "img": "images/sign_60.png"
     },
     {
       "id": 61,
-      "q": "This sign indicates: [Vertical wavy snake-like arrow]",
-      "opts": ["Winding road ahead", "Weave zone ahead", "Slippery when wet", "Lane changing permitted"],
-      "a": "Winding road ahead"
+      "q_en": "This sign indicates: [Vertical wavy snake-like arrow]",
+      "q_fa": "این تابلو نشان‌دهنده چیست؟ [فلش عمودی موج‌دار شبیه مار]",
+      "opts_en": ["Winding road ahead", "Weave zone ahead", "Slippery when wet", "Lane changing permitted"],
+      "opts_fa": ["جاده مارپیچ در پیش رو", "منطقه تداخل (Weave zone) در پیش رو", "لغزنده در صورت خیس بودن", "تغییر لاین مجاز است"],
+      "a_en": "Winding road ahead",
+      "a_fa": "جاده مارپیچ در پیش رو",
+      "img": "images/sign_61.png"
     },
     {
       "id": 65,
-      "q": "This sign indicates: [Branch splitting off right at 45 degrees]",
-      "opts": ["'T' intersection", "Winding road ahead", "Merging traffic", "Road narrows to the right"],
-      "a": "Merging traffic"
+      "q_en": "This sign indicates: [Branch splitting off right at 45 degrees]",
+      "q_fa": "این تابلو نشان‌دهنده چیست؟ [شاخه فرعی جداشونده به راست با زاویه ۴۵ درجه]",
+      "opts_en": ["'T' intersection", "Winding road ahead", "Merging traffic", "Road narrows to the right"],
+      "opts_fa": ["تقاطع T شکل", "جاده مارپیچ در پیش رو", "ادغام ترافیک (Merging)", "باریک شدن جاده از سمت راست"],
+      "a_en": "Merging traffic",
+      "a_fa": "ادغام ترافیک (Merging)",
+      "img": "images/sign_65.png"
     },
     {
       "id": 71,
-      "q": "This sign indicates: [Two lanes curving out leftward concurrently]",
-      "opts": ["Through lane only", "Passing permitted", "No turns permitted", "Double lane left turn"],
-      "a": "Double lane left turn"
+      "q_en": "This sign indicates: [Two lanes curving out leftward concurrently]",
+      "q_fa": "این تابلو نشان‌دهنده چیست؟ [دو لاین که همزمان به سمت چپ می‌پیچند]",
+      "opts_en": ["Through lane only", "Passing permitted", "No turns permitted", "Double lane left turn"],
+      "opts_fa": ["فقط لاین مستقیم عبوری", "سبقت مجاز است", "پیچیدن ممنوع است", "گردش به چپ دو لاینه همزمان"],
+      "a_en": "Double lane left turn",
+      "a_fa": "گردش به چپ دو لاینه همزمان",
+      "img": "images/sign_71.png"
     },
     {
       "id": 75,
-      "q": "This sign indicates: [Split arrow options to go straight or right]",
-      "opts": ["Sharp left curve in the road ahead", "Left turns are prohibited", "Vehicles may turn left or go straight", "Straight through or right turn"],
-      "a": "Straight through or right turn"
+      "q_en": "This sign indicates: [Split arrow options to go straight or right]",
+      "q_fa": "این تابلو نشان‌دهنده چیست؟ [فلش دوشاخه با امکان حرکت مستقیم یا گردش به راست]",
+      "opts_en": ["Sharp left curve in the road ahead", "Left turns are prohibited", "Vehicles may turn left or go straight", "Straight through or right turn"],
+      "opts_fa": ["پیچ تند به چپ در جاده پیش رو", "گردش به چپ ممنوع است", "وسایل نقلیه می‌توانند به چپ بپیچند یا مستقیم بروند", "حرکت مستقیم یا گردش به راست"],
+      "a_en": "Straight through or right turn",
+      "a_fa": "حرکت مستقیم یا گردش به راست",
+      "img": "images/sign_75.png"
     },
     {
       "id": 78,
-      "q": "This sign indicates: [Bold large solid letter 'X' on white square]",
-      "opts": ["Emergency vehicles entering roadway", "The designated lane is closed", "Railway crossing", "Do not enter"],
-      "a": "The designated lane is closed"
+      "q_en": "This sign indicates: [Bold large solid letter 'X' on white square]",
+      "q_fa": "این تابلو نشان‌دهنده چیست؟ [حرف بزرگ و توپر 'X' روی مربع سفید]",
+      "opts_en": ["Emergency vehicles entering roadway", "The designated lane is closed", "Railway crossing", "Do not enter"],
+      "opts_fa": ["ورود وسایل نقلیه اضطراری به جاده", "لاین تعیین‌شده بسته است", "تقاطع راه‌آهن", "ورود ممنوع"],
+      "a_en": "The designated lane is closed",
+      "a_fa": "لاین تعیین‌شده بسته است",
+      "img": "images/sign_78.png"
     },
     {
       "id": 80,
-      "q": "This sign indicates: [Green circle containing TAXI with time ranges]",
-      "opts": ["Lane is reserved for use by the specified vehicles", "One-way traffic only", "Car pool vehicles only", "Lane can be used for dangerous goods vehicles"],
-      "a": "Lane is reserved for use by the specified vehicles"
+      "q_en": "This sign indicates: [Green circle containing TAXI with time ranges]",
+      "q_fa": "این تابلو نشان‌دهنده چیست؟ [دایره سبز حاوی کلمه TAXI همراه با بازه‌های زمانی]",
+      "opts_en": ["Lane is reserved for use by the specified vehicles", "One-way traffic only", "Car pool vehicles only", "Lane can be used for dangerous goods vehicles"],
+      "opts_fa": ["لاین برای استفاده وسایل نقلیه مشخص‌شده رزرو است", "فقط ترافیک یک‌طرفه", "فقط وسایل نقلیه همسفری (Car pool)", "لاین می‌تواند برای وسایل نقلیه حمل کالاهای خطرناک استفاده شود"],
+      "a_en": "Lane is reserved for use by the specified vehicles",
+      "a_fa": "لاین برای استفاده وسایل نقلیه مشخص‌شده رزرو است",
+      "img": "images/sign_80.png"
     },
     {
       "id": 91,
-      "q": "This sign indicates: [Upright equilateral triangle with a dark border frame]",
-      "opts": ["Yield the right-of-way to pedestrians and traffic", "Dangerous goods vehicle placard: flammable gas", "Slow moving vehicle", "Warning, Yield sign ahead"],
-      "a": "Slow moving vehicle"
+      "q_en": "This sign indicates: [Upright equilateral triangle with a dark border frame]",
+      "q_fa": "این تابلو نشان‌دهنده چیست؟ [مثلث متساوی‌الاضلاع ایستاده با کادر تیره خارجی]",
+      "opts_en": ["Yield the right-of-way to pedestrians and traffic", "Dangerous goods vehicle placard: flammable gas", "Slow moving vehicle", "Warning, Yield sign ahead"],
+      "opts_fa": ["حق تقدم را به عابران و ترافیک واگذار کنید", "پلاکارد وسیله نقلیه کالاهای خطرناک: گاز قابل اشتعال", "وسیله نقلیه کندرو", "هشدار، تابلوی حق تقدم در پیش رو"],
+      "a_en": "Slow moving vehicle",
+      "a_fa": "وسیله نقلیه کندرو",
+      "img": "images/sign_91.png"
     },
     {
       "id": 93,
-      "q": "This sign indicates: [School bus with arrow over it and child silhouettes]",
-      "opts": ["Playground zone ahead", "Pedestrian crossing ahead", "School bus stop ahead", "School zone ahead"],
-      "a": "School bus stop ahead"
+      "q_en": "This sign indicates: [School bus with arrow over it and child silhouettes]",
+      "q_fa": "این تابلو نشان‌دهنده چیست؟ [اتوبوس مدرسه با فلشی روی آن و شبح کودکان]",
+      "opts_en": ["Playground zone ahead", "Pedestrian crossing ahead", "School bus stop ahead", "School zone ahead"],
+      "opts_fa": ["منطقه بازی کودکان در پیش رو", "محل عبور عابر پیاده در پیش رو", "ایستگاه اتوبوس مدرسه در پیش رو", "منطقه مدرسه در پیش رو"],
+      "a_en": "School bus stop ahead",
+      "a_fa": "ایستگاه اتوبوس مدرسه در پیش رو",
+      "img": "images/sign_93.png"
     },
     {
       "id": 96,
-      "q": "This sign indicates: [Two children walking side-by-side with schoolbooks]",
-      "opts": ["A school zone", "School crosswalk ahead", "Playground zone", "Pedestrian activated lights ahead"],
-      "a": "School crosswalk ahead"
+      "q_en": "This sign indicates: [Two children walking side-by-side with schoolbooks]",
+      "q_fa": "این تابلو نشان‌دهنده چیست؟ [دو کودک در حال راه رفتن کنار یکدیگر با کتاب‌های مدرسه]",
+      "opts_en": ["A school zone", "School crosswalk ahead", "Playground zone", "Pedestrian activated lights ahead"],
+      "opts_fa": ["منطقه مدرسه", "خط‌کشی عابر پیاده مدرسه در پیش رو", "منطقه بازی کودکان", "چراغ‌های فعال‌شونده توسط عابر پیاده در پیش رو"],
+      "a_en": "School crosswalk ahead",
+      "a_fa": "خط‌کشی عابر پیاده مدرسه در پیش رو",
+      "img": "images/sign_96.png"
     },
     {
       "id": 99,
-      "q": "This sign indicates: [Highly repetitive checkered black-and-white grid diamond]",
-      "opts": ["Pavement ends", "Construction zone ahead", "Dead end", "Hazard marker"],
-      "a": "Hazard marker"
+      "q_en": "This sign indicates: [Highly repetitive checkered black-and-white grid diamond]",
+      "q_fa": "این تابلو نشان‌دهنده چیست؟ [لوزی با شبکه چهارخانه تکراری سیاه و سفید]",
+      "opts_en": ["Pavement ends", "Construction zone ahead", "Dead end", "Hazard marker"],
+      "opts_fa": ["پایان آسفالت", "منطقه کارگاه ساختمانی در پیش رو", "بن‌بست", "نشان‌گر خطر (Hazard marker)"],
+      "a_en": "Hazard marker",
+      "a_fa": "نشان‌گر خطر (Hazard marker)",
+      "img": "images/sign_99.png"
     },
     {
       "id": 100,
-      "q": "This sign indicates: [Opposing vertical lane paths split by low middle median island]",
-      "opts": ["Divided highway ends", "Divided highway begins", "Obstruction - pass on the left", "Two-way traffic"],
-      "a": "Divided highway begins"
+      "q_en": "This sign indicates: [Opposing vertical lane paths split by low middle median island]",
+      "q_fa": "این تابلو نشان‌دهنده چیست؟ [مسیرهای عمودی متضاد که توسط یک جزیره میانی از هم جدا شده‌اند]",
+      "opts_en": ["Divided highway ends", "Divided highway begins", "Obstruction - pass on the left", "Two-way traffic"],
+      "opts_fa": ["پایان بزرگراه مجزا (باند دوطرفه)", "آغاز بزرگراه مجزا (باند دوطرفه)", "مانع - از سمت چپ عبور کنید", "ترافیک دوطرفه"],
+      "a_en": "Divided highway begins",
+      "a_fa": "آغاز بزرگراه مجزا (باند دوطرفه)",
+      "img": "images/sign_100.png"
     },
     {
       "id": 105,
-      "q": "This sign indicates: [Bold blue square containing capital white letter 'H']",
-      "opts": ["Off-road facilities", "Hospital services", "Hotel services", "Primary highway route marker"],
-      "a": "Hospital services"
+      "q_en": "This sign indicates: [Bold blue square containing capital white letter 'H']",
+      "q_fa": "این تابلو نشان‌دهنده چیست؟ [مربع آبی توپر حاوی حرف بزرگ و سفید 'H']",
+      "opts_en": ["Off-road facilities", "Hospital services", "Hotel services", "Primary highway route marker"],
+      "opts_fa": ["تسهیلات خارج از جاده", "خدمات بیمارستانی", "خدمات هتل", "علامت مسیر بزرگراه اصلی"],
+      "a_en": "Hospital services",
+      "a_fa": "خدمات بیمارستانی",
+      "img": "images/sign_105.png"
     }
   ]
 }
