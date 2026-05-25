@@ -1224,7 +1224,7 @@
       "id": 7,
       "q_en": "This sign indicates:",
       "q_fa": "این تابلو نشان‌دهنده چیست؟",
-      "opts_en": ["Route for vehicles over 4500 kg.", "Route for slow moving vehicles", "Reserved lane for buses", "Dangerous goods route"],
+      "opts_en": ["Route for vehicles over 4500 Kg.", "Route for slow moving vehicles", "Reserved lane for buses", "Dangerous goods route"],
       "opts_fa": ["مسیر برای وسایل نقلیه بالای ۴۵۰۰ کیلوگرم", "مسیر برای وسایل نقلیه کندرو", "لاین اختصاصی برای اتوبوس‌ها", "مسیر کالاهای خطرناک"],
       "a_en": "Reserved lane for buses",
       "a_fa": "لاین اختصاصی برای اتوبوس‌ها",
